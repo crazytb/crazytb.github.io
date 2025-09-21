@@ -1,0 +1,1760 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{nasciw}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=5080718e0242b4cc5842a129973585c0}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Yumi},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=d8936d820fbf8b7e16b05d9c7b1ea988}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Bokyeong},
+           giveni={B\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=a35b5f4ab438835bac62eb0ca70e1a9a}{%
+           family={Song*},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91090c5c19628295036d8d3c983c112d}{%
+           family={Ko*},
+           familyi={K\bibinitperiod},
+           given={Haneul},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{22859eb4951d57d1c1c9365d022f83ed}
+      \strng{fullhash}{d6cb17288a1239ece77b583437ea6151}
+      \strng{bibnamehash}{d6cb17288a1239ece77b583437ea6151}
+      \strng{authorbibnamehash}{d6cb17288a1239ece77b583437ea6151}
+      \strng{authornamehash}{22859eb4951d57d1c1c9365d022f83ed}
+      \strng{authorfullhash}{d6cb17288a1239ece77b583437ea6151}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0167-739X}
+      \field{journaltitle}{Future Generation Computer Systems}
+      \field{title}{{Neighbor-aware Shared Container Instance Warming Framework for Serverless Edge Computing}}
+      \field{volume}{174}
+      \field{year}{2026}
+      \true{nocite}
+      \field{pages}{107986}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.future.2025.107986
+      \endverb
+      \keyw{Serverless computing,Cloud,Internet of things (IoT),Container management,Cold start}
+    \endentry
+    \entry{app15052656}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=7658452dff20901fbef951bb6d294ec7}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Woong-Hee},
+           giveni={W\bibinithyphendelim H\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=5cabc9996bc4afe36e8bd5ba7c6d9a2a}{%
+           family={Ozger},
+           familyi={O\bibinitperiod},
+           given={Mustafa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82b6635bc302de60c58d47a7c968b67c}{%
+           family={Challita},
+           familyi={C\bibinitperiod},
+           given={Ursula},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a35b5f4ab438835bac62eb0ca70e1a9a}{%
+           family={Song*},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eecb445b6434dd386c47500ff54f31cd}
+      \strng{fullhash}{a1fe3aa36fd4ac861028f7ce23c948c3}
+      \strng{bibnamehash}{a1fe3aa36fd4ac861028f7ce23c948c3}
+      \strng{authorbibnamehash}{a1fe3aa36fd4ac861028f7ce23c948c3}
+      \strng{authornamehash}{eecb445b6434dd386c47500ff54f31cd}
+      \strng{authorfullhash}{a1fe3aa36fd4ac861028f7ce23c948c3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{5}
+      \field{title}{{Denoising-Autoencoder-Aided Euclidean Distance Matrix Reconstruction for Connectivity-Based Localization: A Low-Rank Perspective}}
+      \field{volume}{15}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{2656}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/app15052656
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2076-3417/15/5/2656
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2076-3417/15/5/2656
+      \endverb
+    \endentry
+    \entry{cgss}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=7658452dff20901fbef951bb6d294ec7}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Woong-Hee},
+           giveni={W\bibinithyphendelim H\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=a35b5f4ab438835bac62eb0ca70e1a9a}{%
+           family={Song*},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd6ff5b8d6ff0875d1d76eed1453c32c}
+      \strng{fullhash}{cd6ff5b8d6ff0875d1d76eed1453c32c}
+      \strng{bibnamehash}{cd6ff5b8d6ff0875d1d76eed1453c32c}
+      \strng{authorbibnamehash}{cd6ff5b8d6ff0875d1d76eed1453c32c}
+      \strng{authornamehash}{cd6ff5b8d6ff0875d1d76eed1453c32c}
+      \strng{authorfullhash}{cd6ff5b8d6ff0875d1d76eed1453c32c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Internet of Things Journal}
+      \field{number}{18}
+      \field{title}{{CGSS: A New Framework of Compressed Sensing Based on Geometric Sequential Representation Against Insufficient Observations}}
+      \field{volume}{11}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{29993\bibrangedash 30003}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/JIOT.2024.3410328
+      \endverb
+    \endentry
+    \entry{multi-criteria}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=3639162434d828e441aabfd8e59286b3}{%
+           family={Tilwari},
+           familyi={T\bibinitperiod},
+           given={Valmik},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=489a31990ccdd4e46ec0129224b3d891}{%
+           family={Nandini},
+           familyi={N\bibinitperiod},
+           given={Usha},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf5bf5eeb5d2c9a6288a71abd6790d6e}{%
+           family={Sivasankaran},
+           familyi={S\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f6893288e3da46e735256007cc16853}{%
+           family={Pack},
+           familyi={P\bibinitperiod},
+           given={Sangheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{73543525b5a0cfcbe94d70f4d35f33d5}
+      \strng{fullhash}{94cd06af3b5893d032b5b0bdb98919f3}
+      \strng{bibnamehash}{94cd06af3b5893d032b5b0bdb98919f3}
+      \strng{authorbibnamehash}{94cd06af3b5893d032b5b0bdb98919f3}
+      \strng{authornamehash}{73543525b5a0cfcbe94d70f4d35f33d5}
+      \strng{authorfullhash}{94cd06af3b5893d032b5b0bdb98919f3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Springer Wireless Networks}
+      \field{title}{{A Multi-criteria Aware Integrated Decision Making Routing Protocol for IoT Communication Toward 6G Networks}}
+      \field{volume}{30}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{3321\bibrangedash 3335}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/s11276-024-03739-9
+      \endverb
+    \endentry
+    \entry{deepaaqm}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e70b4c9fdc591be601ce8df7e84d125}{%
+           family={Kyung},
+           familyi={K\bibinitperiod},
+           given={Yeunwoong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ac569f16a745e64918ff7f38d24d1fa3}
+      \strng{fullhash}{ac569f16a745e64918ff7f38d24d1fa3}
+      \strng{bibnamehash}{ac569f16a745e64918ff7f38d24d1fa3}
+      \strng{authorbibnamehash}{ac569f16a745e64918ff7f38d24d1fa3}
+      \strng{authornamehash}{ac569f16a745e64918ff7f38d24d1fa3}
+      \strng{authorfullhash}{ac569f16a745e64918ff7f38d24d1fa3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Internet of Things Journal}
+      \field{number}{9}
+      \field{title}{{Deep-Reinforcement-Learning-Based Age-of-Information-Aware Low-Power Active Queue Management for IoT Sensor Networks}}
+      \field{volume}{11}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{16700\bibrangedash 16709}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/JIOT.2024.3355410
+      \endverb
+    \endentry
+    \entry{https://doi.org/10.1049/itr2.12255}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9e70b4c9fdc591be601ce8df7e84d125}{%
+           family={Kyung},
+           familyi={K\bibinitperiod},
+           given={Yeunwoong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=3dc4102f832bcee8d9272fd5f15a7f6c}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Eunchan},
+           giveni={E\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=a35b5f4ab438835bac62eb0ca70e1a9a}{%
+           family={Song*},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3a9fe9597d00f30ff02a55e751be8611}
+      \strng{fullhash}{3a9fe9597d00f30ff02a55e751be8611}
+      \strng{bibnamehash}{3a9fe9597d00f30ff02a55e751be8611}
+      \strng{authorbibnamehash}{3a9fe9597d00f30ff02a55e751be8611}
+      \strng{authornamehash}{3a9fe9597d00f30ff02a55e751be8611}
+      \strng{authorfullhash}{3a9fe9597d00f30ff02a55e751be8611}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IET Intelligent Transport Systems}
+      \field{number}{4}
+      \field{title}{{Opportunistic Offloading Scheme for Content Delivery Service using Electro-mobility Networks}}
+      \field{volume}{18}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{591\bibrangedash 598}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1049/itr2.12255
+      \endverb
+      \verb{urlraw}
+      \verb https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/itr2.12255
+      \endverb
+      \verb{url}
+      \verb https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/itr2.12255
+      \endverb
+    \endentry
+    \entry{s24020357}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=9e70b4c9fdc591be601ce8df7e84d125}{%
+           family={Kyung},
+           familyi={K\bibinitperiod},
+           given={Yeunwoong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f54073c8736e0bb267c9cb3ddb48765}{%
+           family={Sung},
+           familyi={S\bibinitperiod},
+           given={Jihoon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b84691a86db43e62dc1e4a3c0f29d979}{%
+           family={Ko},
+           familyi={K\bibinitperiod},
+           given={Haneul},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a35b5f4ab438835bac62eb0ca70e1a9a}{%
+           family={Song*},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f9dff3ccb257737fbb990903140a80a8}{%
+           family={Kim*},
+           familyi={K\bibinitperiod},
+           given={Youngjun},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1cf8a67c84b53af9837b32830dbc5d3b}
+      \strng{fullhash}{2d2d955fe61c27257e44532d686f1ce6}
+      \strng{bibnamehash}{2d2d955fe61c27257e44532d686f1ce6}
+      \strng{authorbibnamehash}{2d2d955fe61c27257e44532d686f1ce6}
+      \strng{authornamehash}{1cf8a67c84b53af9837b32830dbc5d3b}
+      \strng{authorfullhash}{2d2d955fe61c27257e44532d686f1ce6}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{number}{2}
+      \field{title}{{Priority-Aware Actuation Update Scheme in Heterogeneous Industrial Networks}}
+      \field{volume}{24}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{357}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s24020357
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/24/2/357
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/24/2/357
+      \endverb
+    \endentry
+    \entry{10071968}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=7658452dff20901fbef951bb6d294ec7}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Woong-Hee},
+           giveni={W\bibinithyphendelim H\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{f79b272dd924e61bb7ed63bfab9e3997}
+      \strng{fullhash}{f79b272dd924e61bb7ed63bfab9e3997}
+      \strng{bibnamehash}{f79b272dd924e61bb7ed63bfab9e3997}
+      \strng{authorbibnamehash}{f79b272dd924e61bb7ed63bfab9e3997}
+      \strng{authornamehash}{f79b272dd924e61bb7ed63bfab9e3997}
+      \strng{authorfullhash}{f79b272dd924e61bb7ed63bfab9e3997}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Vehicular Technology}
+      \field{number}{8}
+      \field{title}{{HARE: Hybrid ARQ-Based Adaptive Retransmission Control Scheme for Synchronous Multi-Link in Wireless LANs}}
+      \field{volume}{72}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{10302\bibrangedash 10313}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/TVT.2023.3257424
+      \endverb
+    \endentry
+    \entry{YUN2023105508}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=838f18cb656615acf5e5eaec2a117b32}{%
+           family={Yun},
+           familyi={Y\bibinitperiod},
+           given={Jaeseok},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=0a1a398d359327892d9e77f478580188}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Daehee},
+           giveni={D\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=9dd80dbe319d9e15914083e5f4f3365c}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Dong\bibnamedelima Min},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b2dfaf537032c8125cfc23357b06775}{%
+           family={Woo},
+           familyi={W\bibinitperiod},
+           given={Jiyoung},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b9d95c53163f494b590ec4ff489477d3}
+      \strng{fullhash}{54ad580d9a8ffe8f05afddfdfdd42845}
+      \strng{bibnamehash}{54ad580d9a8ffe8f05afddfdfdd42845}
+      \strng{authorbibnamehash}{54ad580d9a8ffe8f05afddfdfdd42845}
+      \strng{authornamehash}{b9d95c53163f494b590ec4ff489477d3}
+      \strng{authorfullhash}{54ad580d9a8ffe8f05afddfdfdd42845}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0952-1976}
+      \field{journaltitle}{Engineering Applications of Artificial Intelligence}
+      \field{title}{{GAN-based sensor data augmentation: Application for counting moving people and detecting directions using PIR sensors}}
+      \field{volume}{117}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{105508}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.engappai.2022.105508
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0952197622004985
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0952197622004985
+      \endverb
+      \keyw{Sensor data augmentation,Generative adversarial network,People counting,Moving direction,Pyroelectric infrared (PIR) sensor,Multi-task learning,Convolutional neural network}
+    \endentry
+    \entry{electronics11244118}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3639162434d828e441aabfd8e59286b3}{%
+           family={Tilwari},
+           familyi={T\bibinitperiod},
+           given={Valmik},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f6893288e3da46e735256007cc16853}{%
+           family={Pack},
+           familyi={P\bibinitperiod},
+           given={Sangheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8128c8e7269c20b8a3616e9088d00a65}
+      \strng{fullhash}{8128c8e7269c20b8a3616e9088d00a65}
+      \strng{bibnamehash}{8128c8e7269c20b8a3616e9088d00a65}
+      \strng{authorbibnamehash}{8128c8e7269c20b8a3616e9088d00a65}
+      \strng{authornamehash}{8128c8e7269c20b8a3616e9088d00a65}
+      \strng{authorfullhash}{8128c8e7269c20b8a3616e9088d00a65}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2079-9292}
+      \field{journaltitle}{Electronics}
+      \field{number}{24}
+      \field{title}{{An Improved Routing Approach for Enhancing QoS Performance for D2D Communication in B5G Networks}}
+      \field{volume}{11}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{4118}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/electronics11244118
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2079-9292/11/24/4118
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2079-9292/11/24/4118
+      \endverb
+    \endentry
+    \entry{s22207967}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9e70b4c9fdc591be601ce8df7e84d125}{%
+           family={Kyung},
+           familyi={K\bibinitperiod},
+           given={Yeunwoong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a35b5f4ab438835bac62eb0ca70e1a9a}{%
+           family={Song*},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d93eb5b39f49b79b1c3aa2a37c725192}
+      \strng{fullhash}{d93eb5b39f49b79b1c3aa2a37c725192}
+      \strng{bibnamehash}{d93eb5b39f49b79b1c3aa2a37c725192}
+      \strng{authorbibnamehash}{d93eb5b39f49b79b1c3aa2a37c725192}
+      \strng{authornamehash}{d93eb5b39f49b79b1c3aa2a37c725192}
+      \strng{authorfullhash}{d93eb5b39f49b79b1c3aa2a37c725192}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{number}{20}
+      \field{title}{{CSV: Content Service Offloading System with Vehicular Caching}}
+      \field{volume}{22}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{7967}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s22207967
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/22/20/7967
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/22/20/7967
+      \endverb
+    \endentry
+    \entry{app11010317}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=0f85895e7bc73b9aa75ec683f2992e77}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Taeyoon},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{eac340363f59dd947653a578d92d37f1}
+      \strng{fullhash}{eac340363f59dd947653a578d92d37f1}
+      \strng{bibnamehash}{eac340363f59dd947653a578d92d37f1}
+      \strng{authorbibnamehash}{eac340363f59dd947653a578d92d37f1}
+      \strng{authornamehash}{eac340363f59dd947653a578d92d37f1}
+      \strng{authorfullhash}{eac340363f59dd947653a578d92d37f1}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2076-3417}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{1}
+      \field{title}{{Performance Analysis of Synchronous Multi-Radio Multi-Link MAC Protocols in IEEE 802.11be Extremely High Throughput WLANs}}
+      \field{volume}{11}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{317}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/app11010317
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2076-3417/11/1/317
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2076-3417/11/1/317
+      \endverb
+    \endentry
+    \entry{en13153940}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=0f85895e7bc73b9aa75ec683f2992e77}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Taeyoon},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f6893288e3da46e735256007cc16853}{%
+           family={Pack},
+           familyi={P\bibinitperiod},
+           given={Sangheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a495f6fb673da1736f36b55def8d9617}
+      \strng{fullhash}{a495f6fb673da1736f36b55def8d9617}
+      \strng{bibnamehash}{a495f6fb673da1736f36b55def8d9617}
+      \strng{authorbibnamehash}{a495f6fb673da1736f36b55def8d9617}
+      \strng{authornamehash}{a495f6fb673da1736f36b55def8d9617}
+      \strng{authorfullhash}{a495f6fb673da1736f36b55def8d9617}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1996-1073}
+      \field{journaltitle}{Energies}
+      \field{number}{15}
+      \field{title}{{An Energy Efficient Message Dissemination Scheme in Platoon-Based Driving Systems}}
+      \field{volume}{13}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{3940}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/en13153940
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1996-1073/13/15/3940
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1996-1073/13/15/3940
+      \endverb
+    \endentry
+    \entry{JOO2020287}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=31609b441d0f5300d2ed5a8c27e13874}{%
+           family={Joo},
+           familyi={J\bibinitperiod},
+           given={Sohyun},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=0f85895e7bc73b9aa75ec683f2992e77}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Taeyoon},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f6893288e3da46e735256007cc16853}{%
+           family={Pack},
+           familyi={P\bibinitperiod},
+           given={Sangheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a6b240fbaf85ad4c516c2769e3b5cbf0}
+      \strng{fullhash}{cb4e25cd98096bbabd328a10343ae0ba}
+      \strng{bibnamehash}{cb4e25cd98096bbabd328a10343ae0ba}
+      \strng{authorbibnamehash}{cb4e25cd98096bbabd328a10343ae0ba}
+      \strng{authornamehash}{a6b240fbaf85ad4c516c2769e3b5cbf0}
+      \strng{authorfullhash}{cb4e25cd98096bbabd328a10343ae0ba}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2405-9595}
+      \field{journaltitle}{ICT Express}
+      \field{number}{4}
+      \field{title}{{MU-MIMO enabled uplink OFDMA MAC protocol in dense IEEE 802.11ax WLANs}}
+      \field{volume}{6}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{287\bibrangedash 290}
+      \range{pages}{4}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.icte.2020.04.007
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2405959520300825
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2405959520300825
+      \endverb
+      \keyw{IEEE 802.11ax,MORA,MU-MIMO,OFDMA}
+    \endentry
+    \entry{s19235106}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=0f85895e7bc73b9aa75ec683f2992e77}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Taeyoon},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{eac340363f59dd947653a578d92d37f1}
+      \strng{fullhash}{eac340363f59dd947653a578d92d37f1}
+      \strng{bibnamehash}{eac340363f59dd947653a578d92d37f1}
+      \strng{authorbibnamehash}{eac340363f59dd947653a578d92d37f1}
+      \strng{authornamehash}{eac340363f59dd947653a578d92d37f1}
+      \strng{authorfullhash}{eac340363f59dd947653a578d92d37f1}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{number}{23}
+      \field{title}{{Performance Analysis of Addressing Mechanisms in Inter-Operable IoT Device with Low-Power Wake-Up Radio}}
+      \field{volume}{19}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{5106}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s19235106
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/19/23/5106
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/19/23/5106
+      \endverb
+    \endentry
+    \entry{8253899}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=758e530ba8b0ec60e4beb96e1e54f405}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Tae-Yoon},
+           giveni={T\bibinithyphendelim Y\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=93cc707a9520e5a4157cecdd6d84c34a}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Wonjung},
+           giveni={W\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8f6893288e3da46e735256007cc16853}{%
+           family={Pack},
+           familyi={P\bibinitperiod},
+           given={Sangheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c5824aa5f48a12311d32e84476a4400f}
+      \strng{fullhash}{3fa5916475305e1a97812640fe8b1a20}
+      \strng{bibnamehash}{3fa5916475305e1a97812640fe8b1a20}
+      \strng{authorbibnamehash}{3fa5916475305e1a97812640fe8b1a20}
+      \strng{authornamehash}{c5824aa5f48a12311d32e84476a4400f}
+      \strng{authorfullhash}{3fa5916475305e1a97812640fe8b1a20}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Vehicular Technology}
+      \field{number}{5}
+      \field{title}{{Adaptive and Distributed Radio Resource Allocation in Densely Deployed Wireless LANs: A Game-Theoretic Approach}}
+      \field{volume}{67}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{4466\bibrangedash 4475}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/TVT.2018.2789362
+      \endverb
+    \endentry
+    \entry{8119964}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=758e530ba8b0ec60e4beb96e1e54f405}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Tae-Yoon},
+           giveni={T\bibinithyphendelim Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=93cc707a9520e5a4157cecdd6d84c34a}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Wonjung},
+           giveni={W\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8f6893288e3da46e735256007cc16853}{%
+           family={Pack},
+           familyi={P\bibinitperiod},
+           given={Sangheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ff5bc73ebb78017f904e4039ab8ec4e0}
+      \strng{fullhash}{5de71d8cde8cdbb94ffa458c690ce451}
+      \strng{bibnamehash}{5de71d8cde8cdbb94ffa458c690ce451}
+      \strng{authorbibnamehash}{5de71d8cde8cdbb94ffa458c690ce451}
+      \strng{authornamehash}{ff5bc73ebb78017f904e4039ab8ec4e0}
+      \strng{authorfullhash}{5de71d8cde8cdbb94ffa458c690ce451}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Vehicular Technology}
+      \field{number}{4}
+      \field{title}{{Phase-Divided MAC Protocol for Integrated Uplink and Downlink Multiuser MIMO WLANs}}
+      \field{volume}{67}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{3172\bibrangedash 3185}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/TVT.2017.2777902
+      \endverb
+    \endentry
+    \entry{7987027}{article}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=93cc707a9520e5a4157cecdd6d84c34a}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Wonjung},
+           giveni={W\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=0f85895e7bc73b9aa75ec683f2992e77}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Taeyoon},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=1fb65fd2635e594494e12f51f493e122}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Hyunhee},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f6893288e3da46e735256007cc16853}{%
+           family={Pack},
+           familyi={P\bibinitperiod},
+           given={Sangheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{50a7e59388088c876c610b335b649a8e}
+      \strng{fullhash}{92c7f843acdaa218af7f3ed25337f771}
+      \strng{bibnamehash}{92c7f843acdaa218af7f3ed25337f771}
+      \strng{authorbibnamehash}{92c7f843acdaa218af7f3ed25337f771}
+      \strng{authornamehash}{50a7e59388088c876c610b335b649a8e}
+      \strng{authorfullhash}{92c7f843acdaa218af7f3ed25337f771}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Vehicular Technology}
+      \field{number}{12}
+      \field{title}{{VoIP Capacity Analysis in Full Duplex WLANs}}
+      \field{volume}{66}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{11419\bibrangedash 11424}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/TVT.2017.2729590
+      \endverb
+    \endentry
+    \entry{pack2016ra}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=8f6893288e3da46e735256007cc16853}{%
+           family={Pack},
+           familyi={P\bibinitperiod},
+           given={Sangheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfddb09c78385de207b148f50fadebd3}{%
+           family={Min},
+           familyi={M\bibinitperiod},
+           given={Seongman},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93cc707a9520e5a4157cecdd6d84c34a}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Wonjung},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b5c0e0547d6c2e898fe947fb7b48b8d0}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Nakjung},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1fb65fd2635e594494e12f51f493e122}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Hyunhee},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer US}%
+      }
+      \strng{namehash}{6f28c0b2057d2889adeb3ab233bdd092}
+      \strng{fullhash}{30447994e4f02ff2990864a421eb53fd}
+      \strng{bibnamehash}{30447994e4f02ff2990864a421eb53fd}
+      \strng{authorbibnamehash}{30447994e4f02ff2990864a421eb53fd}
+      \strng{authornamehash}{6f28c0b2057d2889adeb3ab233bdd092}
+      \strng{authorfullhash}{30447994e4f02ff2990864a421eb53fd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wireless Networks}
+      \field{title}{{RA-PSM: a rate-aware power saving mechanism in multi-rate wireless LANs}}
+      \field{volume}{22}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{1767\bibrangedash 1777}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1007/s11276-015-1064-3
+      \endverb
+    \endentry
+    \entry{song2015ors}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=93cc707a9520e5a4157cecdd6d84c34a}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Wonjung},
+           giveni={W\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8f6893288e3da46e735256007cc16853}{%
+           family={Pack},
+           familyi={P\bibinitperiod},
+           given={Sangheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer US}%
+      }
+      \strng{namehash}{cccef2e0d51cce4d0d46a817e93ef6ef}
+      \strng{fullhash}{cccef2e0d51cce4d0d46a817e93ef6ef}
+      \strng{bibnamehash}{cccef2e0d51cce4d0d46a817e93ef6ef}
+      \strng{authorbibnamehash}{cccef2e0d51cce4d0d46a817e93ef6ef}
+      \strng{authornamehash}{cccef2e0d51cce4d0d46a817e93ef6ef}
+      \strng{authorfullhash}{cccef2e0d51cce4d0d46a817e93ef6ef}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wireless Personal Communications}
+      \field{number}{4}
+      \field{title}{{ORS-FA: An Opportunistic Relay Selection Scheme for Frame-Aggregated Environments}}
+      \field{volume}{82}
+      \field{year}{2015}
+      \true{nocite}
+      \field{pages}{2351\bibrangedash 2361}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1007/s11277-015-2351-0
+      \endverb
+    \endentry
+    \entry{kim2014fras}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=93cc707a9520e5a4157cecdd6d84c34a}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Wonjung},
+           giveni={W\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f6893288e3da46e735256007cc16853}{%
+           family={Pack},
+           familyi={P\bibinitperiod},
+           given={Sangheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer US}%
+      }
+      \strng{namehash}{8bdde90b7478ade613e978f58e61ba49}
+      \strng{fullhash}{8bdde90b7478ade613e978f58e61ba49}
+      \strng{bibnamehash}{8bdde90b7478ade613e978f58e61ba49}
+      \strng{authorbibnamehash}{8bdde90b7478ade613e978f58e61ba49}
+      \strng{authornamehash}{8bdde90b7478ade613e978f58e61ba49}
+      \strng{authorfullhash}{8bdde90b7478ade613e978f58e61ba49}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wireless personal communications}
+      \field{title}{{FRAS: Fair rate adaptation scheme for directional multicast in 60 GHz multi-gigabit WLANs}}
+      \field{volume}{77}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{1007\bibrangedash 1017}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1007/s11277-013-1551-8
+      \endverb
+    \endentry
+    \entry{6826578}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=1fb65fd2635e594494e12f51f493e122}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Hyunhee},
+           giveni={H\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=a9679e8a8b5e256df0b5c868c94b938f}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Yongsun},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f6893288e3da46e735256007cc16853}{%
+           family={Pack},
+           familyi={P\bibinitperiod},
+           given={Sangheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{932f4a485bc8ed74842ebebd4d31bcb8}
+      \strng{fullhash}{b5b86e238c6b4bcc8aee51433fe76989}
+      \strng{bibnamehash}{b5b86e238c6b4bcc8aee51433fe76989}
+      \strng{authorbibnamehash}{b5b86e238c6b4bcc8aee51433fe76989}
+      \strng{authornamehash}{932f4a485bc8ed74842ebebd4d31bcb8}
+      \strng{authorfullhash}{b5b86e238c6b4bcc8aee51433fe76989}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Vehicular Technology}
+      \field{number}{3}
+      \field{title}{{Multiband Directional Neighbor Discovery in Self-Organized mmWave Ad Hoc Networks}}
+      \field{volume}{64}
+      \field{year}{2015}
+      \true{nocite}
+      \field{pages}{1143\bibrangedash 1155}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TVT.2014.2329303
+      \endverb
+    \endentry
+    \entry{pack2013cross}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=8f6893288e3da46e735256007cc16853}{%
+           family={Pack},
+           familyi={P\bibinitperiod},
+           given={Sangheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=220f03460a1af5210b9d3db2ed75f3a3}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Kihun},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=93cc707a9520e5a4157cecdd6d84c34a}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Wonjung},
+           giveni={W\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfddb09c78385de207b148f50fadebd3}{%
+           family={Min},
+           familyi={M\bibinitperiod},
+           given={Seongman},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer US}%
+      }
+      \strng{namehash}{a200329d56eb0ead686a89b49bbf891e}
+      \strng{fullhash}{2e4c7dfc72e91239194c55cda689afa5}
+      \strng{bibnamehash}{2e4c7dfc72e91239194c55cda689afa5}
+      \strng{authorbibnamehash}{2e4c7dfc72e91239194c55cda689afa5}
+      \strng{authornamehash}{a200329d56eb0ead686a89b49bbf891e}
+      \strng{authorfullhash}{2e4c7dfc72e91239194c55cda689afa5}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wireless personal communications}
+      \field{title}{{A Cross-Layer Approach to Reduce Channel Access Delay Jitter in IEEE 802.11 WLANs}}
+      \field{volume}{69}
+      \field{year}{2013}
+      \true{nocite}
+      \field{pages}{1379\bibrangedash 1390}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/s11277-012-0639-x
+      \endverb
+    \endentry
+    \entry{6414579}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=1fb65fd2635e594494e12f51f493e122}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Hyunhee},
+           giveni={H\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=994fb2e116d68bdc24de350954c67b0e}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Seunghyun},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f6893288e3da46e735256007cc16853}{%
+           family={Pack},
+           familyi={P\bibinitperiod},
+           given={Sangheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{90b6728b5fe537d530f1796cf444e4ba}
+      \strng{fullhash}{9617835ed2aa05c37f63f300e256baa0}
+      \strng{bibnamehash}{9617835ed2aa05c37f63f300e256baa0}
+      \strng{authorbibnamehash}{9617835ed2aa05c37f63f300e256baa0}
+      \strng{authornamehash}{90b6728b5fe537d530f1796cf444e4ba}
+      \strng{authorfullhash}{9617835ed2aa05c37f63f300e256baa0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Communications Letters}
+      \field{number}{3}
+      \field{title}{{An Incremental Multicast Grouping Scheme for mmWave Networks with Directional Antennas}}
+      \field{volume}{17}
+      \field{year}{2013}
+      \true{nocite}
+      \field{pages}{616\bibrangedash 619}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/LCOMM.2013.011513.122519
+      \endverb
+    \endentry
+    \entry{lee2012channel}{article}{}
+      \name{author}{6}{}{%
+        {{un=1,uniquepart=given,hash=8cdc035242ea9a0db614996c6c00e214}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jong-In},
+           giveni={J\bibinithyphendelim I\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=93cc707a9520e5a4157cecdd6d84c34a}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Wonjung},
+           giveni={W\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f6893288e3da46e735256007cc16853}{%
+           family={Pack},
+           familyi={P\bibinitperiod},
+           given={Sangheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85616346de257b10ccb0ee87e55115e3}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Chul-Hee},
+           giveni={C\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8bf8ec113c9d532496a4106c005af5be}{%
+           family={Hwang},
+           familyi={H\bibinitperiod},
+           given={Sungho},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer US}%
+      }
+      \strng{namehash}{eb32a3cad5c2ad50b648bc55aa9fb13a}
+      \strng{fullhash}{1ffeb4fbd4696438c3ddc2c7c916cb27}
+      \strng{bibnamehash}{1ffeb4fbd4696438c3ddc2c7c916cb27}
+      \strng{authorbibnamehash}{1ffeb4fbd4696438c3ddc2c7c916cb27}
+      \strng{authornamehash}{eb32a3cad5c2ad50b648bc55aa9fb13a}
+      \strng{authorfullhash}{1ffeb4fbd4696438c3ddc2c7c916cb27}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wireless Personal Communications}
+      \field{title}{{A Channel Adaptive ACK Mechanism in High Rate Wireless Personal Area Networks}}
+      \field{volume}{66}
+      \field{year}{2012}
+      \true{nocite}
+      \field{pages}{473\bibrangedash 488}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/s11277-011-0353-0
+      \endverb
+    \endentry
+    \entry{song2024drqn}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{e44f81f771ea8e5a3a7506f960433cb4}
+      \strng{fullhash}{e44f81f771ea8e5a3a7506f960433cb4}
+      \strng{bibnamehash}{e44f81f771ea8e5a3a7506f960433cb4}
+      \strng{authorbibnamehash}{e44f81f771ea8e5a3a7506f960433cb4}
+      \strng{authornamehash}{e44f81f771ea8e5a3a7506f960433cb4}
+      \strng{authorfullhash}{e44f81f771ea8e5a3a7506f960433cb4}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2024 15th International Conference on Information and Communication Technology Convergence (ICTC)}
+      \field{title}{{DRQN-based Task Offloading in UAV-assisted Mobile Edge Computing Environments with Hidden Channel Conditions}}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{2153\bibrangedash 2154}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1109/ICTC62082.2024.10826811
+      \endverb
+    \endentry
+    \entry{10393330}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=9e70b4c9fdc591be601ce8df7e84d125}{%
+           family={Kyung},
+           familyi={K\bibinitperiod},
+           given={Yeunwoong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=ab7ed8d7d93e7aa6a5e98e6bd6e3041e}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jaewook},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=ebd75739729890cfda0e654c5bad1ded}{%
+           family={Jang},
+           familyi={J\bibinitperiod},
+           given={Seokwon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b84691a86db43e62dc1e4a3c0f29d979}{%
+           family={Ko},
+           familyi={K\bibinitperiod},
+           given={Haneul},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ac8901d3527d47830b5c7a6198b264ec}
+      \strng{fullhash}{fc5ea93001bf5420a45c3e6d26cf4092}
+      \strng{bibnamehash}{fc5ea93001bf5420a45c3e6d26cf4092}
+      \strng{authorbibnamehash}{fc5ea93001bf5420a45c3e6d26cf4092}
+      \strng{authornamehash}{ac8901d3527d47830b5c7a6198b264ec}
+      \strng{authorfullhash}{fc5ea93001bf5420a45c3e6d26cf4092}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2023 14th International Conference on Information and Communication Technology Convergence (ICTC)}
+      \field{title}{{Cost-efficient Deployment Scheme for User and Control Plane Functions in Non-public Networks}}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{869\bibrangedash 871}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1109/ICTC58733.2023.10393330
+      \endverb
+      \keyw{Simulation;Pricing;Performance gain;Markov processes;Information and communication technology;Noise measurement;Convergence;Non-public networks (NPNs);network function (NF) deployment;Markov decision process (MDP)}
+    \endentry
+    \entry{10392829}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e44f81f771ea8e5a3a7506f960433cb4}
+      \strng{fullhash}{e44f81f771ea8e5a3a7506f960433cb4}
+      \strng{bibnamehash}{e44f81f771ea8e5a3a7506f960433cb4}
+      \strng{authorbibnamehash}{e44f81f771ea8e5a3a7506f960433cb4}
+      \strng{authornamehash}{e44f81f771ea8e5a3a7506f960433cb4}
+      \strng{authorfullhash}{e44f81f771ea8e5a3a7506f960433cb4}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2023 14th International Conference on Information and Communication Technology Convergence (ICTC)}
+      \field{title}{{Opportunistic Task Offloading in UAV-assisted Mobile Edge Computing: A Deep Reinforcement Learning Approach}}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{881\bibrangedash 884}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ICTC58733.2023.10392829
+      \endverb
+      \keyw{Wireless communication;Multi-access edge computing;5G mobile communication;Computational modeling;Telecommunication traffic;Reinforcement learning;Autonomous aerial vehicles;5G mobile networks;task offloading;deep reinforcement learning;DQN;mobile edge computing}
+    \endentry
+    \entry{10393732}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0b8b67f6fd2d74ef0ae0057aa121e1b3}{%
+           family={Jeong},
+           familyi={J\bibinitperiod},
+           given={Younghwan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=0f85895e7bc73b9aa75ec683f2992e77}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Taeyoon},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{26948c16d563b05d78229ed216ec205b}
+      \strng{fullhash}{26948c16d563b05d78229ed216ec205b}
+      \strng{bibnamehash}{26948c16d563b05d78229ed216ec205b}
+      \strng{authorbibnamehash}{26948c16d563b05d78229ed216ec205b}
+      \strng{authornamehash}{26948c16d563b05d78229ed216ec205b}
+      \strng{authorfullhash}{26948c16d563b05d78229ed216ec205b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2023 14th International Conference on Information and Communication Technology Convergence (ICTC)}
+      \field{title}{{Adaptive Client Training Scale Orchestration for Federated Learning}}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{885\bibrangedash 888}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ICTC58733.2023.10393732
+      \endverb
+      \keyw{Training;Adaptation models;Federated learning;Computational modeling;Neural networks;Data models;Information and communication technology;federated learning;adaptive scaling;normalization performance;Deep Q-network}
+    \endentry
+    \entry{song2016channel}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=758e530ba8b0ec60e4beb96e1e54f405}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Tae-Yoon},
+           giveni={T\bibinithyphendelim Y\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=93cc707a9520e5a4157cecdd6d84c34a}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Wonjung},
+           giveni={W\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8f6893288e3da46e735256007cc16853}{%
+           family={Pack},
+           familyi={P\bibinitperiod},
+           given={Sangheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{c5824aa5f48a12311d32e84476a4400f}
+      \strng{fullhash}{3fa5916475305e1a97812640fe8b1a20}
+      \strng{bibnamehash}{3fa5916475305e1a97812640fe8b1a20}
+      \strng{authorbibnamehash}{3fa5916475305e1a97812640fe8b1a20}
+      \strng{authornamehash}{c5824aa5f48a12311d32e84476a4400f}
+      \strng{authorfullhash}{3fa5916475305e1a97812640fe8b1a20}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 International Conference on Information Networking (ICOIN)}
+      \field{title}{Channel bonding algorithm for densely deployed wireless LAN}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{395\bibrangedash 397}
+      \range{pages}{3}
+    \endentry
+    \entry{song2016two}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f6893288e3da46e735256007cc16853}{%
+           family={Pack},
+           familyi={P\bibinitperiod},
+           given={Sangheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{36eb801ea89f44ee3c5d7177231c6018}
+      \strng{fullhash}{36eb801ea89f44ee3c5d7177231c6018}
+      \strng{bibnamehash}{36eb801ea89f44ee3c5d7177231c6018}
+      \strng{authorbibnamehash}{36eb801ea89f44ee3c5d7177231c6018}
+      \strng{authornamehash}{36eb801ea89f44ee3c5d7177231c6018}
+      \strng{authorfullhash}{36eb801ea89f44ee3c5d7177231c6018}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 International Conference on Information and Communication Technology Convergence (ICTC)}
+      \field{title}{{A Two-phase Resource Allocation Algorithm for Densely Deployed OFDMA WLANs}}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{631\bibrangedash 633}
+      \range{pages}{3}
+    \endentry
+    \entry{song2014probabilistic}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=1fb65fd2635e594494e12f51f493e122}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Hyunhee},
+           giveni={H\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8f6893288e3da46e735256007cc16853}{%
+           family={Pack},
+           familyi={P\bibinitperiod},
+           given={Sangheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{d0b52eb92e7c4cd36baf7722cc7b76b1}
+      \strng{fullhash}{d0b52eb92e7c4cd36baf7722cc7b76b1}
+      \strng{bibnamehash}{d0b52eb92e7c4cd36baf7722cc7b76b1}
+      \strng{authorbibnamehash}{d0b52eb92e7c4cd36baf7722cc7b76b1}
+      \strng{authornamehash}{d0b52eb92e7c4cd36baf7722cc7b76b1}
+      \strng{authorfullhash}{d0b52eb92e7c4cd36baf7722cc7b76b1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2014 IEEE 79th Vehicular Technology Conference (VTC Spring)}
+      \field{title}{A probabilistic neighbor discovery algorithm in wireless ad hoc networks}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/VTCSpring.2014.7022791
+      \endverb
+    \endentry
+    \entry{kim2012rate}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=93cc707a9520e5a4157cecdd6d84c34a}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Wonjung},
+           giveni={W\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f6893288e3da46e735256007cc16853}{%
+           family={Pack},
+           familyi={P\bibinitperiod},
+           given={Sangheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{8bdde90b7478ade613e978f58e61ba49}
+      \strng{fullhash}{8bdde90b7478ade613e978f58e61ba49}
+      \strng{bibnamehash}{8bdde90b7478ade613e978f58e61ba49}
+      \strng{authorbibnamehash}{8bdde90b7478ade613e978f58e61ba49}
+      \strng{authornamehash}{8bdde90b7478ade613e978f58e61ba49}
+      \strng{authorfullhash}{8bdde90b7478ade613e978f58e61ba49}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2012 IEEE international conference on consumer electronics (ICCE)}
+      \field{title}{Rate adaptation for directional multicast in IEEE 802.11 ad networks}
+      \field{year}{2012}
+      \true{nocite}
+      \field{pages}{364\bibrangedash 365}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1109/ICCE.2012.6161903
+      \endverb
+    \endentry
+    \entry{pack2011consistent}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=8f6893288e3da46e735256007cc16853}{%
+           family={Pack},
+           familyi={P\bibinitperiod},
+           given={Sangheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=220f03460a1af5210b9d3db2ed75f3a3}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Kihun},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=93cc707a9520e5a4157cecdd6d84c34a}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Wonjung},
+           giveni={W\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{a200329d56eb0ead686a89b49bbf891e}
+      \strng{fullhash}{dd0457c74f2f03f3fc1c2a5aaeebc948}
+      \strng{bibnamehash}{dd0457c74f2f03f3fc1c2a5aaeebc948}
+      \strng{authorbibnamehash}{dd0457c74f2f03f3fc1c2a5aaeebc948}
+      \strng{authornamehash}{a200329d56eb0ead686a89b49bbf891e}
+      \strng{authorfullhash}{dd0457c74f2f03f3fc1c2a5aaeebc948}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2011 Proceedings of 20th International Conference on Computer Communications and Networks (ICCCN)}
+      \field{title}{{Consistent Random Backoff to Reduce Channel Access Delay Jitter in IEEE 802.11 WLANs}}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICCCN.2011.6006051
+      \endverb
+    \endentry
+    \entry{song2011opportunistic}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=93cc707a9520e5a4157cecdd6d84c34a}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Wonjung},
+           giveni={W\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8f6893288e3da46e735256007cc16853}{%
+           family={Pack},
+           familyi={P\bibinitperiod},
+           given={Sangheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{cccef2e0d51cce4d0d46a817e93ef6ef}
+      \strng{fullhash}{cccef2e0d51cce4d0d46a817e93ef6ef}
+      \strng{bibnamehash}{cccef2e0d51cce4d0d46a817e93ef6ef}
+      \strng{authorbibnamehash}{cccef2e0d51cce4d0d46a817e93ef6ef}
+      \strng{authornamehash}{cccef2e0d51cce4d0d46a817e93ef6ef}
+      \strng{authorfullhash}{cccef2e0d51cce4d0d46a817e93ef6ef}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2011 IEEE consumer communications and networking conference (CCNC)}
+      \field{title}{{Opportunistic Relay Selection Scheme with Frame Aggregation}}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{1124\bibrangedash 1125}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1109/CCNC.2011.5766349
+      \endverb
+    \endentry
+    \entry{song2022utility}{incollection}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e44f81f771ea8e5a3a7506f960433cb4}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Taewon},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=0f85895e7bc73b9aa75ec683f2992e77}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Taeyoon},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8f6893288e3da46e735256007cc16853}{%
+           family={Pack},
+           familyi={P\bibinitperiod},
+           given={Sangheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing Cham}%
+      }
+      \strng{namehash}{28b02f0a2beec4a6a0a220be333c1a2e}
+      \strng{fullhash}{28b02f0a2beec4a6a0a220be333c1a2e}
+      \strng{bibnamehash}{28b02f0a2beec4a6a0a220be333c1a2e}
+      \strng{authorbibnamehash}{28b02f0a2beec4a6a0a220be333c1a2e}
+      \strng{authornamehash}{28b02f0a2beec4a6a0a220be333c1a2e}
+      \strng{authorfullhash}{28b02f0a2beec4a6a0a220be333c1a2e}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Broadband Communications, Computing, and Control for Ubiquitous Intelligence}
+      \field{title}{{Utility-Based Dynamic Resource Allocation in IEEE 802.11 ax Networks: A Genetic Algorithm Approach}}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{65\bibrangedash 80}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/978-3-030-98064-1_4
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -22,6 +22,15 @@
 % Most commands and style definitions are in settings.sty.
 \usepackage{settings}
 
+% Add page numbers
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\thepage/\pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
 % If you need to further customise your biblatex setup e.g. with \DeclareFieldFormat etc please add them here AFTER loading settings.sty. For example, to remove the default "[Online] Available:" prefix before URLs when using the IEEE style:
 \DefineBibliographyStrings{english}{url={\textsc{url}}}
 
@@ -76,12 +85,15 @@
 \leftheader{%
   {\LARGE\bfseries\sffamily Taewon Song, Ph.D.}, \hfill {\large\bfseries\sffamily Date of revision: \today}
 
-  \makefield{\faEnvelope[regular]}{\href{mailto:twsong@sch.ac.kr}{\texttt{twsong@sch.ac.kr}}}\hfill
-  % \makefield{\faTwitter}{\href{https://twitter.com/overleaf_example}{\texttt{@overleaf\_example}}}
-  \makefield{\faLinkedin}
-  {\href{https://www.linkedin.com/in/taewon-song-1b2b26139/}{\texttt{Taewon Song}}}\hfill
-  %% Next line
-  \makefield{\faGlobe}{\url{https://sites.google.com/view/ainolab/}}
+  \hfill{\href{mailto:twsong@sch.ac.kr}{\texttt{twsong@sch.ac.kr}}}\makefield{\faEnvelope[regular]}
+
+  \hfill{\href{https://github.com/crazytb}{\texttt{crazytb}}}\makefield{\faGithub}
+
+  \hfill{\href{https://www.linkedin.com/in/taewon-song-1b2b26139/}{\texttt{Taewon Song}}}\makefield{\faLinkedin}
+
+  \hfill{\url{https://sites.google.com/view/ainolab/}}\makefield{\faGlobe}
+
+  \hfill{\url{https://scholar.google.com/citations?user=wtxUC_IAAAAJ}}\makefield{\faGoogle}
   % You can use a tabular here if you want to line up the fields.
 }
 
@@ -99,6 +111,8 @@
 \makerubric{bio}
 \makerubric{employment}
 \makerubric{education}
+
+\pagebreak
 
 % If you're not a researcher nor an academic, you probably don't have any publications; delete this line.
 %% Sometimes when a section can't be nicely modelled with the \entry[]... mechanism; hack our own and use \input NOT \makerubric
