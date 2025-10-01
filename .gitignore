@@ -1,0 +1,55 @@
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.idx
+*.ind
+*.ilg
+*.nav
+*.snm
+*.vrb
+
+# LaTeX build directories
+_minted-*/
+*.pdf
+
+# But keep the PDF in web directory for deployment
+!web/*.pdf
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+
+# Node modules (if you add any JS tooling)
+node_modules/

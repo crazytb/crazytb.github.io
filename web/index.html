@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curriculum Vitae of Taewon Song, Ph.D.">
+    <meta name="author" content="Taewon Song">
+    <title>Taewon Song - Curriculum Vitae</title>
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Print Button -->
+    <button id="printButton" class="print-button" aria-label="Print CV">
+        <i class="fas fa-print"></i>
+    </button>
+
+    <!-- PDF Download Button -->
+    <a id="pdfDownload" class="pdf-download" href="#" aria-label="Download PDF">
+        <i class="fas fa-file-pdf"></i>
+    </a>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header Section -->
+        <header class="cv-header">
+            <div class="header-content">
+                <h1 id="name" class="name">Loading...</h1>
+                <p class="title">Ph.D. | Assistant Professor</p>
+
+                <div class="contact-info">
+                    <a id="email" href="#" class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                    <a id="github" href="#" target="_blank" class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a id="linkedin" href="#" target="_blank" class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a id="website" href="#" target="_blank" class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <span>Website</span>
+                    </a>
+                    <a id="scholar" href="#" target="_blank" class="contact-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Google Scholar</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Biography Section -->
+        <section class="cv-section biography">
+            <h2 class="section-title">
+                <i class="fas fa-user"></i>
+                Biography
+            </h2>
+            <div id="biography" class="section-content">
+                <p>Loading...</p>
+            </div>
+        </section>
+
+        <!-- Employment Section -->
+        <section class="cv-section employment">
+            <h2 class="section-title">
+                <i class="fas fa-briefcase"></i>
+                Employment & Experience
+            </h2>
+            <div id="employment" class="section-content timeline">
+                <!-- Employment items will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="cv-section education">
+            <h2 class="section-title">
+                <i class="fas fa-graduation-cap"></i>
+                Education
+            </h2>
+            <div id="education" class="section-content timeline">
+                <!-- Education items will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="cv-section skills">
+            <h2 class="section-title">
+                <i class="fas fa-code"></i>
+                Skills
+            </h2>
+            <div id="skills" class="section-content skills-grid">
+                <!-- Skills will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="cv-section projects">
+            <h2 class="section-title">
+                <i class="fas fa-project-diagram"></i>
+                Projects (PI)
+            </h2>
+            <div id="projects" class="section-content">
+                <!-- Projects will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section class="cv-section publications">
+            <h2 class="section-title">
+                <i class="fas fa-file-alt"></i>
+                Research Publications
+            </h2>
+            <div class="section-content">
+                <!-- Early Access / Accepted Publications -->
+                <div id="publications-early" class="publication-category">
+                    <h3 class="publication-subtitle">Early Access or Accepted Publications</h3>
+                    <div class="publication-list">
+                        <!-- Early access publications will be dynamically inserted here -->
+                    </div>
+                </div>
+
+                <!-- Journal Articles -->
+                <div id="publications-journals" class="publication-category">
+                    <h3 class="publication-subtitle">International Journal Articles</h3>
+                    <div class="publication-list">
+                        <!-- Journal publications will be dynamically inserted here -->
+                    </div>
+                </div>
+
+                <!-- Conference Proceedings -->
+                <div id="publications-conferences" class="publication-category">
+                    <h3 class="publication-subtitle">International Conference Proceedings</h3>
+                    <div class="publication-list">
+                        <!-- Conference publications will be dynamically inserted here -->
+                    </div>
+                </div>
+
+                <!-- Books and Chapters -->
+                <div id="publications-books" class="publication-category">
+                    <h3 class="publication-subtitle">Books and Chapters</h3>
+                    <div class="publication-list">
+                        <!-- Books and chapters will be dynamically inserted here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Miscellaneous Section -->
+        <section class="cv-section miscellaneous">
+            <h2 class="section-title">
+                <i class="fas fa-star"></i>
+                Miscellaneous Experiences
+            </h2>
+            <div class="section-content">
+                <!-- Awards and Achievements -->
+                <h3 class="subsection-title">Awards and Achievements</h3>
+                <div id="awards" class="awards-list">
+                    <!-- Awards will be dynamically inserted here -->
+                </div>
+
+                <!-- Activities -->
+                <h3 class="subsection-title">Activities</h3>
+                <div id="activities" class="activities-list">
+                    <!-- Activities will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- References Section -->
+        <section class="cv-section references">
+            <h2 class="section-title">
+                <i class="fas fa-user-friends"></i>
+                References
+            </h2>
+            <div id="references" class="section-content references-grid">
+                <!-- References will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="cv-footer">
+            <p>Last updated: <span id="lastUpdated"></span></p>
+            <p>Built from LaTeX source • <a href="https://github.com/crazytb/curriculum_vitae" target="_blank">View Source</a></p>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

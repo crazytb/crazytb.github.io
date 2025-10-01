@@ -1,0 +1,106 @@
+name: Build CV and Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Setup Python for parsing TeX files
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      # Install LaTeX
+      - name: Install LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            texlive-latex-base \
+            texlive-latex-extra \
+            texlive-fonts-recommended \
+            texlive-fonts-extra \
+            texlive-lang-korean \
+            texlive-bibtex-extra \
+            biber \
+            latexmk
+
+      # Build PDF
+      - name: Build PDF
+        run: |
+          pdflatex -interaction=nonstopmode cv-taewon.tex || true
+          biber cv-taewon || true
+          pdflatex -interaction=nonstopmode cv-taewon.tex || true
+          pdflatex -interaction=nonstopmode cv-taewon.tex || true
+
+      # Check if PDF was created
+      - name: Check PDF output
+        run: |
+          if [ -f cv-taewon.pdf ]; then
+            echo "✓ PDF generated successfully"
+            ls -lh cv-taewon.pdf
+          else
+            echo "✗ PDF generation failed"
+            exit 1
+          fi
+
+      # Parse TeX to JSON
+      - name: Parse TeX to JSON
+        run: |
+          python3 scripts/parse_tex_to_json.py
+          echo "✓ JSON data generated"
+          cat web/data/cv_data.json
+
+      # Copy PDF to web directory
+      - name: Copy PDF to web directory
+        run: |
+          cp cv-taewon.pdf web/cv-taewon.pdf
+          echo "✓ PDF copied to web directory"
+
+      # Create .nojekyll file (important for GitHub Pages)
+      - name: Create .nojekyll
+        run: touch web/.nojekyll
+
+      # Upload artifact for GitHub Pages
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: 'web'
+
+  # Deployment job
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v3

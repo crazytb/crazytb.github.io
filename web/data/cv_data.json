@@ -1,0 +1,521 @@
+{
+  "personal": {
+    "name": "Taewon Song",
+    "email": "twsong@sch.ac.kr",
+    "github": "crazytb",
+    "linkedin": "taewon-song-1b2b26139/",
+    "website": "https://sites.google.com/view/ainolab/",
+    "scholar": "https://scholar.google.com/citations?user=wtxUC_IAAAAJ"
+  },
+  "biography": "Taewon Song received the B.S. and Ph.D. degrees in electrical engineering from Korea University, Seoul, South Korea, in 2010 and 2017, respectively. In 2021, he joined Soonchunhyang University, where he is currently an Assistant Professor at the Department of IoT. From 2017 to 2020, he was a Senior Researcher at the Advanced Standard R&D Laboratory, LG Electronics, where he worked on standardization for wake-up radio and next-generation WLANs. He was a Visiting Student supported by the BK21+ project with the University of Florida from February 2015 to April 2015. From January 2012 to February 2012, he was a Visiting Researcher supported by the National Research Foundation of Korea at the National Institute of Information and Communications Technology. His current research interests include AI-empowered networking, low-power wake-up radio, and the wireless medium access control protocol of next-generation WLANs.",
+  "employment": [
+    {
+      "period": "2021. 3. -- Current",
+      "position": "Assistant Professor,",
+      "organization": "Department of IoT, College of SW Convergence, Soonchunhyang University"
+    },
+    {
+      "period": "2020. 9. -- 2021. 2.",
+      "position": "Research Assistant Professor,",
+      "organization": "SCH Convergence Science Institute, Soonchunhyang University"
+    },
+    {
+      "period": "2017. 2. -- 2020. 9.",
+      "position": "Senior Researcher,",
+      "organization": "C\\&M Standard Lab., Chief Technology Officer, LG Electronics"
+    },
+    {
+      "period": "2014. 12. -- 2015. 2.",
+      "position": "Visiting Researcher,",
+      "organization": "University of Florida, Gainesville, Florida, USA"
+    },
+    {
+      "period": "2012. 1. -- 2012. 2.",
+      "position": "Visiting Researcher,",
+      "organization": "Network Architecture Group, National Institute of Information and Communications Technology (NICT), Japan"
+    }
+  ],
+  "education": [
+    {
+      "period": "2010 -- 2017",
+      "degree": "Ph.D., in Electronics, Electrical and Computer Engineering, Korea University",
+      "thesis": "Opportunistic and Decentralized Algorithms for Improving Performance in Wireless LANs",
+      "advisor": "Sangheon Pack"
+    },
+    {
+      "period": "2003 -- 2006",
+      "degree": "B.S., in Electronics, Electrical and Computer Engineering, Korea University",
+      "thesis": "",
+      "advisor": ""
+    }
+  ],
+  "skills": {
+    "Language Proficiency": "Korean (Native), English (Advanced), Japanese (Advanced)",
+    "Programming Languages": "Matlab, Python, ..."
+  },
+  "projects": [
+    {
+      "period": "2021 -- 2024",
+      "title": "AIoT 기반 미래 모빌리티 인터랙션 시스템기술개발",
+      "role": "소과제책임자,",
+      "funding": "지자체-대학 협력기반 지역혁신 사업 (Regional Innovation Strategy)"
+    },
+    {
+      "period": "2022 -- 2023",
+      "title": "Framework Development of Service-oriented Autonomous Artificial Intelligence of Things considering Communication/Network Characteristics",
+      "role": "과제책임자,",
+      "funding": "한국연구재단 기본연구"
+    }
+  ],
+  "publications": {
+    "early_access": [],
+    "journals": [
+      {
+        "type": "article",
+        "key": "nasciw",
+        "title": "Neighbor-aware Shared Container Instance Warming Framework for Serverless Edge Computing",
+        "author": "Yumi Kim and Bokyeong Kim and Taewon Song* and Haneul Ko*",
+        "year": "2026",
+        "journal": "Future Generation Computer Systems",
+        "booktitle": "",
+        "volume": "174",
+        "number": "",
+        "pages": "107986",
+        "doi": "https://doi.org/10.1016/j.future.2025.107986",
+        "url": "",
+        "keywords": "Serverless computing, Cloud, Internet of things (IoT), Container management, Cold start"
+      },
+      {
+        "type": "article",
+        "key": "app15052656",
+        "title": "Denoising-Autoencoder-Aided Euclidean Distance Matrix Reconstruction for Connectivity-Based Localization: A Low-Rank Perspective",
+        "author": "Lee, Woong-Hee and Ozger, Mustafa and Challita, Ursula and Song*, Taewon",
+        "year": "2025",
+        "journal": "Applied Sciences",
+        "booktitle": "",
+        "volume": "15",
+        "number": "5",
+        "pages": "2656",
+        "doi": "10.3390/app15052656",
+        "url": "https://www.mdpi.com/2076-3417/15/5/2656",
+        "keywords": ""
+      },
+      {
+        "type": "article",
+        "key": "cgss",
+        "title": "CGSS: A New Framework of Compressed Sensing Based on Geometric Sequential Representation Against Insufficient Observations",
+        "author": "Lee, Woong-Hee and Song*, Taewon",
+        "year": "2024",
+        "journal": "IEEE Internet of Things Journal",
+        "booktitle": "",
+        "volume": "11",
+        "number": "18",
+        "pages": "29993--30003",
+        "doi": "10.1109/JIOT.2024.3410328",
+        "url": "",
+        "keywords": ""
+      },
+      {
+        "type": "article",
+        "key": "multi-criteria",
+        "title": "A Multi-criteria Aware Integrated Decision Making Routing Protocol for IoT Communication Toward 6G Networks",
+        "author": "Tilwari, Valmik and Song, Taewon and Nandini, Usha and Sivasankaran, V. and Pack, Sangheon",
+        "year": "2024",
+        "journal": "Springer Wireless Networks",
+        "booktitle": "",
+        "volume": "30",
+        "number": "",
+        "pages": "3321–-3335",
+        "doi": "10.1007/s11276-024-03739-9",
+        "url": "",
+        "keywords": ""
+      },
+      {
+        "type": "article",
+        "key": "deepaaqm",
+        "title": "Deep-Reinforcement-Learning-Based Age-of-Information-Aware Low-Power Active Queue Management for IoT Sensor Networks",
+        "author": "Song, Taewon and Kyung, Yeunwoong",
+        "year": "2024",
+        "journal": "IEEE Internet of Things Journal",
+        "booktitle": "",
+        "volume": "11",
+        "number": "9",
+        "pages": "16700--16709",
+        "doi": "10.1109/JIOT.2024.3355410",
+        "url": "",
+        "keywords": ""
+      },
+      {
+        "type": "article",
+        "key": "https://doi.org/10.1049/itr2.12255",
+        "title": "Opportunistic Offloading Scheme for Content Delivery Service using Electro-mobility Networks",
+        "author": "Kyung, Yeunwoong and Kim, Eunchan and Song*, Taewon",
+        "year": "2024",
+        "journal": "IET Intelligent Transport Systems",
+        "booktitle": "",
+        "volume": "18",
+        "number": "4",
+        "pages": "591--598",
+        "doi": "10.1049/itr2.12255",
+        "url": "https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/itr2.12255",
+        "keywords": ""
+      },
+      {
+        "type": "article",
+        "key": "s24020357",
+        "title": "Priority-Aware Actuation Update Scheme in Heterogeneous Industrial Networks",
+        "author": "Kyung, Yeunwoong and Sung, Jihoon and Ko, Haneul and Song*, Taewon and Kim*, Youngjun",
+        "year": "2024",
+        "journal": "Sensors",
+        "booktitle": "",
+        "volume": "24",
+        "number": "2",
+        "pages": "357",
+        "doi": "10.3390/s24020357",
+        "url": "https://www.mdpi.com/1424-8220/24/2/357",
+        "keywords": ""
+      },
+      {
+        "type": "article",
+        "key": "10071968",
+        "title": "GAN-based sensor data augmentation: Application for counting moving people and detecting directions using PIR sensors",
+        "author": "Jaeseok Yun and Daehee Kim and Dong Min Kim and Taewon Song and Jiyoung Woo",
+        "year": "2023",
+        "journal": "Engineering Applications of Artificial Intelligence",
+        "booktitle": "",
+        "volume": "117",
+        "number": "8",
+        "pages": "105508",
+        "doi": "10.1016/j.engappai.2022.105508",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0952197622004985",
+        "keywords": "Sensor data augmentation, Generative adversarial network, People counting, Moving direction, Pyroelectric infrared (PIR) sensor, Multi-task learning, Convolutional neural network"
+      },
+      {
+        "type": "article",
+        "key": "electronics11244118",
+        "title": "An Improved Routing Approach for Enhancing QoS Performance for D2D Communication in B5G Networks",
+        "author": "Tilwari, Valmik and Song, Taewon and Pack, Sangheon",
+        "year": "2022",
+        "journal": "Electronics",
+        "booktitle": "",
+        "volume": "11",
+        "number": "24",
+        "pages": "4118",
+        "doi": "10.3390/electronics11244118",
+        "url": "https://www.mdpi.com/2079-9292/11/24/4118",
+        "keywords": ""
+      },
+      {
+        "type": "article",
+        "key": "s22207967",
+        "title": "CSV: Content Service Offloading System with Vehicular Caching",
+        "author": "Kyung, Yeunwoong and Song*, Taewon",
+        "year": "2022",
+        "journal": "Sensors",
+        "booktitle": "",
+        "volume": "22",
+        "number": "20",
+        "pages": "7967",
+        "doi": "10.3390/s22207967",
+        "url": "https://www.mdpi.com/1424-8220/22/20/7967",
+        "keywords": ""
+      },
+      {
+        "type": "article",
+        "key": "app11010317",
+        "title": "Performance Analysis of Synchronous Multi-Radio Multi-Link MAC Protocols in IEEE 802.11be Extremely High Throughput WLANs",
+        "author": "Song, Taewon and Kim, Taeyoon",
+        "year": "2021",
+        "journal": "Applied Sciences",
+        "booktitle": "",
+        "volume": "11",
+        "number": "1",
+        "pages": "317",
+        "doi": "10.3390/app11010317",
+        "url": "https://www.mdpi.com/2076-3417/11/1/317",
+        "keywords": ""
+      },
+      {
+        "type": "article",
+        "key": "en13153940",
+        "title": "An Energy Efficient Message Dissemination Scheme in Platoon-Based Driving Systems",
+        "author": "Kim, Taeyoon and Song, Taewon and Pack, Sangheon",
+        "year": "2020",
+        "journal": "Energies",
+        "booktitle": "",
+        "volume": "13",
+        "number": "15",
+        "pages": "3940",
+        "doi": "10.3390/en13153940",
+        "url": "https://www.mdpi.com/1996-1073/13/15/3940",
+        "keywords": ""
+      },
+      {
+        "type": "article",
+        "key": "JOO2020287",
+        "title": "MU-MIMO enabled uplink OFDMA MAC protocol in dense IEEE 802.11ax WLANs",
+        "author": "Sohyun Joo and Taeyoon Kim and Taewon Song and Sangheon Pack",
+        "year": "2020",
+        "journal": "ICT Express",
+        "booktitle": "",
+        "volume": "6",
+        "number": "4",
+        "pages": "287-290",
+        "doi": "https://doi.org/10.1016/j.icte.2020.04.007",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2405959520300825",
+        "keywords": "IEEE 802.11ax, MORA, MU-MIMO, OFDMA"
+      },
+      {
+        "type": "article",
+        "key": "s19235106",
+        "title": "Performance Analysis of Addressing Mechanisms in Inter-Operable IoT Device with Low-Power Wake-Up Radio",
+        "author": "Song, Taewon and Kim, Taeyoon",
+        "year": "2019",
+        "journal": "Sensors",
+        "booktitle": "",
+        "volume": "19",
+        "number": "23",
+        "pages": "5106",
+        "doi": "10.3390/s19235106",
+        "url": "https://www.mdpi.com/1424-8220/19/23/5106",
+        "keywords": ""
+      },
+      {
+        "type": "article",
+        "key": "8253899",
+        "title": "RA-PSM: a rate-aware power saving mechanism in multi-rate wireless LANs",
+        "author": "Pack, Sangheon and Min, Seongman and Song, Taewon and Kim, Wonjung and Choi, Nakjung and Park, Hyunhee",
+        "year": "2016",
+        "journal": "Wireless Networks",
+        "booktitle": "",
+        "volume": "22",
+        "number": "12",
+        "pages": "1767--1777",
+        "doi": "10.1007/s11276-015-1064-3",
+        "url": "",
+        "keywords": ""
+      },
+      {
+        "type": "article",
+        "key": "song2015ors",
+        "title": "ORS-FA: An Opportunistic Relay Selection Scheme for Frame-Aggregated Environments",
+        "author": "Song, Taewon and Kim, Wonjung and Pack, Sangheon",
+        "year": "2015",
+        "journal": "Wireless Personal Communications",
+        "booktitle": "",
+        "volume": "82",
+        "number": "4",
+        "pages": "2351--2361",
+        "doi": "10.1007/s11277-015-2351-0",
+        "url": "",
+        "keywords": ""
+      },
+      {
+        "type": "article",
+        "key": "kim2014fras",
+        "title": "FRAS: Fair rate adaptation scheme for directional multicast in 60 GHz multi-gigabit WLANs",
+        "author": "Kim, Wonjung and Song, Taewon and Pack, Sangheon",
+        "year": "2014",
+        "journal": "Wireless personal communications",
+        "booktitle": "",
+        "volume": "77",
+        "number": "",
+        "pages": "1007--1017",
+        "doi": "10.1007/s11277-013-1551-8",
+        "url": "",
+        "keywords": ""
+      },
+      {
+        "type": "article",
+        "key": "6826578",
+        "title": "A Cross-Layer Approach to Reduce Channel Access Delay Jitter in IEEE 802.11 WLANs",
+        "author": "Pack, Sangheon and Kim, Kihun and Kim, Wonjung and Song, Taewon and Min, Seongman",
+        "year": "2013",
+        "journal": "Wireless personal communications",
+        "booktitle": "",
+        "volume": "69",
+        "number": "3",
+        "pages": "1379--1390",
+        "doi": "10.1007/s11277-012-0639-x",
+        "url": "",
+        "keywords": ""
+      },
+      {
+        "type": "article",
+        "key": "6414579",
+        "title": "A Channel Adaptive ACK Mechanism in High Rate Wireless Personal Area Networks",
+        "author": "Lee, Jong-In and Kim, Wonjung and Song, Taewon and Pack, Sangheon and Kang, Chul-Hee and Hwang, Sungho",
+        "year": "2012",
+        "journal": "Wireless Personal Communications",
+        "booktitle": "",
+        "volume": "66",
+        "number": "3",
+        "pages": "473--488",
+        "doi": "10.1007/s11277-011-0353-0",
+        "url": "",
+        "keywords": ""
+      }
+    ],
+    "conferences": [
+      {
+        "type": "inproceedings",
+        "key": "song2024drqn",
+        "title": "DRQN-based Task Offloading in UAV-assisted Mobile Edge Computing Environments with Hidden Channel Conditions",
+        "author": "Song, Taewon",
+        "year": "2024",
+        "journal": "",
+        "booktitle": "2024 15th International Conference on Information and Communication Technology Convergence (ICTC)",
+        "volume": "",
+        "number": "",
+        "pages": "2153--2154",
+        "doi": "10.1109/ICTC62082.2024.10826811",
+        "url": "",
+        "keywords": ""
+      },
+      {
+        "type": "inproceedings",
+        "key": "10393330",
+        "title": "Channel bonding algorithm for densely deployed wireless LAN",
+        "author": "Song, Taewon and Kim, Tae-Yoon and Kim, Wonjung and Pack, Sangheon",
+        "year": "2016",
+        "journal": "",
+        "booktitle": "2016 International Conference on Information Networking (ICOIN)",
+        "volume": "",
+        "number": "",
+        "pages": "395--397",
+        "doi": "10.1109/ICTC58733.2023.10393732",
+        "url": "",
+        "keywords": "Training;Adaptation models;Federated learning;Computational modeling;Neural networks;Data models;Information and communication technology;federated learning;adaptive scaling;normalization performance;Deep Q-network"
+      },
+      {
+        "type": "inproceedings",
+        "key": "song2016two",
+        "title": "A Two-phase Resource Allocation Algorithm for Densely Deployed OFDMA WLANs",
+        "author": "Song, Taewon and Pack, Sangheon",
+        "year": "2016",
+        "journal": "",
+        "booktitle": "2016 International Conference on Information and Communication Technology Convergence (ICTC)",
+        "volume": "",
+        "number": "",
+        "pages": "631--633",
+        "doi": "",
+        "url": "",
+        "keywords": ""
+      },
+      {
+        "type": "inproceedings",
+        "key": "song2014probabilistic",
+        "title": "A probabilistic neighbor discovery algorithm in wireless ad hoc networks",
+        "author": "Song, Taewon and Park, Hyunhee and Pack, Sangheon",
+        "year": "2014",
+        "journal": "",
+        "booktitle": "2014 IEEE 79th Vehicular Technology Conference (VTC Spring)",
+        "volume": "",
+        "number": "",
+        "pages": "1--5",
+        "doi": "10.1109/VTCSpring.2014.7022791",
+        "url": "",
+        "keywords": ""
+      },
+      {
+        "type": "inproceedings",
+        "key": "kim2012rate",
+        "title": "Rate adaptation for directional multicast in IEEE 802.11 ad networks",
+        "author": "Kim, Wonjung and Song, Taewon and Pack, Sangheon",
+        "year": "2012",
+        "journal": "",
+        "booktitle": "2012 IEEE international conference on consumer electronics (ICCE)",
+        "volume": "",
+        "number": "",
+        "pages": "364--365",
+        "doi": "10.1109/ICCE.2012.6161903",
+        "url": "",
+        "keywords": ""
+      },
+      {
+        "type": "inproceedings",
+        "key": "pack2011consistent",
+        "title": "Consistent Random Backoff to Reduce Channel Access Delay Jitter in IEEE 802.11 WLANs",
+        "author": "Pack, Sangheon and Kim, Kihun and Kim, Wonjung and Song, Taewon",
+        "year": "2011",
+        "journal": "",
+        "booktitle": "2011 Proceedings of 20th International Conference on Computer Communications and Networks (ICCCN)",
+        "volume": "",
+        "number": "",
+        "pages": "1--5",
+        "doi": "10.1109/ICCCN.2011.6006051",
+        "url": "",
+        "keywords": ""
+      }
+    ],
+    "books": []
+  },
+  "misc": {
+    "awards": [
+      {
+        "year": "2015",
+        "title": "Long-term Overseas Visiting Scholarship",
+        "organization": "BK21+, National Research Foundation of Korea (NRF)"
+      },
+      {
+        "year": "2015",
+        "title": "LGE Scholarship",
+        "organization": "LG Electronics CTO Division"
+      },
+      {
+        "year": "2012",
+        "title": "The 19th Winter Institute Program",
+        "organization": "Japan International Science and Technology Exchange Center (JISTEC) and National Research Foundation of Korea (NRF)"
+      }
+    ],
+    "activities": [
+      {
+        "year": "2025",
+        "activity": "IEEE Globecom 2025 SAC - CECN (2025 IEEE Global Communications Conference Selected Areas in Communications: Cloud/Edge Computing and Networking) TPC member"
+      },
+      {
+        "year": "2024",
+        "activity": "ICTC 2024 TPC member"
+      },
+      {
+        "year": "2024",
+        "activity": "ICCC 2024 TPC member"
+      },
+      {
+        "year": "2024",
+        "activity": "ICUFN 2024 TPC member"
+      },
+      {
+        "year": "2023",
+        "activity": "한국콘텐츠진흥원 과제기획위원"
+      },
+      {
+        "year": "2023",
+        "activity": "ICCC 2023 TPC member"
+      },
+      {
+        "year": "2023",
+        "activity": "ICTC 2023 TPC member"
+      },
+      {
+        "year": "2022",
+        "activity": "ICCE 2022 TPC member, Track Chair"
+      },
+      {
+        "year": "2021",
+        "activity": "IEEE GLOBECOM 2021 main reviewer"
+      },
+      {
+        "year": "2020",
+        "activity": "ICCE-Asia 2020 session chair"
+      }
+    ]
+  },
+  "references": [
+    {
+      "name": "Sangheon Pack",
+      "position": "Professor",
+      "email": "shpack@korea.ac.kr"
+    }
+  ]
+}
