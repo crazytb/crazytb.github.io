@@ -188,38 +188,64 @@ function renderPublications() {
 
     // Render Early Access publications
     const earlyEl = document.querySelector('#publications-early .publication-list');
-    if (earlyEl) {
+    const earlyCategory = document.getElementById('publications-early');
+    if (earlyEl && earlyCategory) {
         if (cvData.publications.early_access && cvData.publications.early_access.length > 0) {
-            earlyEl.innerHTML = cvData.publications.early_access.map(pub => createPublicationHTML(pub)).join('');
+            const pubs = cvData.publications.early_access;
+            earlyEl.innerHTML = pubs.map((pub, index) =>
+                createPublicationHTML(pub, pubs.length - index)
+            ).join('');
+            updatePublicationCount(earlyCategory, pubs.length);
         } else {
-            document.getElementById('publications-early').style.display = 'none';
+            earlyCategory.style.display = 'none';
         }
     }
 
     // Render Journal articles
     const journalsEl = document.querySelector('#publications-journals .publication-list');
-    if (journalsEl && cvData.publications.journals) {
-        journalsEl.innerHTML = cvData.publications.journals.map(pub => createPublicationHTML(pub)).join('');
+    const journalsCategory = document.getElementById('publications-journals');
+    if (journalsEl && journalsCategory && cvData.publications.journals) {
+        const pubs = cvData.publications.journals;
+        journalsEl.innerHTML = pubs.map((pub, index) =>
+            createPublicationHTML(pub, pubs.length - index)
+        ).join('');
+        updatePublicationCount(journalsCategory, pubs.length);
     }
 
     // Render Conference proceedings
     const conferencesEl = document.querySelector('#publications-conferences .publication-list');
-    if (conferencesEl && cvData.publications.conferences) {
-        conferencesEl.innerHTML = cvData.publications.conferences.map(pub => createPublicationHTML(pub)).join('');
+    const conferencesCategory = document.getElementById('publications-conferences');
+    if (conferencesEl && conferencesCategory && cvData.publications.conferences) {
+        const pubs = cvData.publications.conferences;
+        conferencesEl.innerHTML = pubs.map((pub, index) =>
+            createPublicationHTML(pub, pubs.length - index)
+        ).join('');
+        updatePublicationCount(conferencesCategory, pubs.length);
     }
 
-    // Render Books and chapters
-    const booksEl = document.querySelector('#publications-books .publication-list');
-    if (booksEl) {
-        if (cvData.publications.books && cvData.publications.books.length > 0) {
-            booksEl.innerHTML = cvData.publications.books.map(pub => createPublicationHTML(pub)).join('');
-        } else {
-            document.getElementById('publications-books').style.display = 'none';
-        }
+    // Setup collapsible functionality
+    setupCollapsiblePublications();
+}
+
+function updatePublicationCount(categoryElement, count) {
+    const countSpan = categoryElement.querySelector('.pub-count');
+    if (countSpan) {
+        countSpan.textContent = `(${count})`;
     }
 }
 
-function createPublicationHTML(pub) {
+function setupCollapsiblePublications() {
+    const collapsibleHeaders = document.querySelectorAll('.publication-subtitle.collapsible-header');
+
+    collapsibleHeaders.forEach(header => {
+        header.addEventListener('click', function() {
+            const category = this.closest('.publication-category');
+            category.classList.toggle('collapsed');
+        });
+    });
+}
+
+function createPublicationHTML(pub, number) {
     const venue = pub.journal || pub.booktitle || '';
     const volumeInfo = pub.volume ? `Vol. ${pub.volume}` : '';
     const numberInfo = pub.number ? `No. ${pub.number}` : '';
@@ -232,23 +258,26 @@ function createPublicationHTML(pub) {
 
     return `
         <div class="publication-item">
-            <div class="publication-title">${escapeHtml(pub.title)}</div>
-            <div class="publication-authors">${escapeHtml(pub.author)}</div>
-            <div class="publication-venue">
-                ${escapeHtml(venue)}${venueDetails ? ', ' + venueDetails : ''}
-            </div>
-            <div class="publication-meta">
-                <span class="publication-year">
-                    <i class="fas fa-calendar"></i> ${escapeHtml(pub.year)}
-                </span>
-                ${doiLink ? `
-                    <span class="publication-doi">
-                        <i class="fas fa-link"></i>
-                        <a href="${doiLink}" target="_blank" rel="noopener noreferrer">
-                            ${pub.doi ? 'DOI' : 'Link'}
-                        </a>
+            <div class="publication-number">[${number}]</div>
+            <div class="publication-content">
+                <div class="publication-title">${escapeHtml(pub.title)}</div>
+                <div class="publication-authors">${escapeHtml(pub.author)}</div>
+                <div class="publication-venue">
+                    ${escapeHtml(venue)}${venueDetails ? ', ' + venueDetails : ''}
+                </div>
+                <div class="publication-meta">
+                    <span class="publication-year">
+                        <i class="fas fa-calendar"></i> ${escapeHtml(pub.year)}
                     </span>
-                ` : ''}
+                    ${doiLink ? `
+                        <span class="publication-doi">
+                            <i class="fas fa-link"></i>
+                            <a href="${doiLink}" target="_blank" rel="noopener noreferrer">
+                                ${pub.doi ? 'DOI' : 'Link'}
+                            </a>
+                        </span>
+                    ` : ''}
+                </div>
             </div>
         </div>
     `;

@@ -198,23 +198,54 @@ class TexCVParser:
             print(f"⚠ {bib_file} not found, skipping publications")
             return
 
-        # BibTeX 항목 파싱
-        entries = re.findall(r'@(\w+)\{([^,]+),\s*(.*?)\n\}', content, re.DOTALL)
+        # BibTeX 항목들을 @ 기준으로 분할
+        # 첫 번째는 빈 문자열이므로 제외
+        entries_raw = re.split(r'\n(?=@)', content)[1:] if content.startswith('\n') else re.split(r'(?=@)', content)
 
-        for entry_type, key, fields in entries:
-            # 각 필드 파싱
+        for entry_raw in entries_raw:
+            if not entry_raw.strip():
+                continue
+
+            # 항목 타입과 키 추출: @Type{key,
+            type_match = re.match(r'@(\w+)\{([^,]+),', entry_raw)
+            if not type_match:
+                continue
+
+            entry_type = type_match.group(1)
+            key = type_match.group(2)
+
+            # 필드 파싱 - 중괄호 균형 유지하면서 파싱
             field_dict = {}
-            field_matches = re.findall(r'(\w+)\s*=\s*\{([^}]+)\}', fields)
 
-            for field_name, field_value in field_matches:
-                field_dict[field_name.lower()] = field_value.strip()
+            # 각 필드를 찾기: field = {value}
+            # value는 중첩 괄호를 포함할 수 있음
+            field_pattern = r'(\w+)\s*=\s*\{'
+            field_positions = [(m.group(1), m.start(), m.end()) for m in re.finditer(field_pattern, entry_raw)]
+
+            for i, (field_name, start, end) in enumerate(field_positions):
+                # 값의 시작 위치 (= { 다음)
+                value_start = end
+
+                # 중괄호 균형을 맞춰서 값의 끝 찾기
+                brace_count = 1
+                pos = value_start
+                while pos < len(entry_raw) and brace_count > 0:
+                    if entry_raw[pos] == '{':
+                        brace_count += 1
+                    elif entry_raw[pos] == '}':
+                        brace_count -= 1
+                    pos += 1
+
+                if brace_count == 0:
+                    value = entry_raw[value_start:pos-1].strip()
+                    field_dict[field_name.lower()] = value
 
             # 저자, 제목, 연도 추출
             pub_entry = {
                 "type": entry_type.lower(),
                 "key": key,
                 "title": field_dict.get('title', '').strip('{}'),
-                "author": field_dict.get('author', ''),
+                "author": field_dict.get('author', '').replace('*', ''),  # 별표 제거
                 "year": field_dict.get('year', ''),
                 "journal": field_dict.get('journal', ''),
                 "booktitle": field_dict.get('booktitle', ''),
@@ -226,15 +257,14 @@ class TexCVParser:
                 "keywords": field_dict.get('keywords', '')
             }
 
-            # 카테고리별로 분류
+            # 카테고리별로 분류 (books 제외)
             if 'early access' in pub_entry['keywords'].lower():
                 self.cv_data["publications"]["early_access"].append(pub_entry)
             elif entry_type.lower() == 'article':
                 self.cv_data["publications"]["journals"].append(pub_entry)
             elif entry_type.lower() == 'inproceedings':
                 self.cv_data["publications"]["conferences"].append(pub_entry)
-            elif entry_type.lower() in ['book', 'incollection']:
-                self.cv_data["publications"]["books"].append(pub_entry)
+            # book과 incollection은 제외
 
     def parse_misc(self, misc_file: str = "misc.tex"):
         """기타 경력(Miscellaneous) 파일 파싱"""
