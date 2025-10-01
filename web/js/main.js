@@ -441,7 +441,7 @@ function setupEventListeners() {
     const pdfDownload = document.getElementById('pdfDownload');
     if (pdfDownload) {
         // Check if PDF exists
-        pdfDownload.href = '../curriculum_vitae/cv-taewon.pdf';
+        pdfDownload.href = '/curriculum_vitae/cv-taewon.pdf';
         pdfDownload.addEventListener('click', (e) => {
             // Could add analytics or confirmation here
             console.log('PDF download clicked');
