@@ -324,25 +324,31 @@ class TexCVParser:
             print(f"⚠ {ref_file} not found, skipping references")
             return
 
-        # \textbf{Name}, position 패턴 추출
-        ref_entries = re.findall(r'\\textbf\{([^}]+)\},\s*([^\n\\]+)', content)
+        # \textbf{Name}, position\par 다음에 organization이 나오는 패턴
+        # 예: \textbf{Sangheon Pack}, Professor\par
+        #     School of Electrical Engineering, Korea University,\par
+        ref_pattern = r'\\textbf\{([^}]+)\},\s*([^\n\\]+)\\par\s*([^\n\\]+?)(?:,)?\\par'
+        ref_entries = re.findall(ref_pattern, content, re.DOTALL)
 
-        for name, position in ref_entries:
-            # 이메일 추출
-            email_match = re.search(r'\\url\{([^}]+)\}', content)
+        for name, position, organization in ref_entries:
+            # 이메일 추출 (해당 reference block 내에서)
+            # \textbf{Name} 이후부터 다음 \textbf 또는 파일 끝까지의 영역에서 이메일 찾기
+            name_escaped = re.escape(name)
+            block_pattern = rf'\\textbf\{{{name_escaped}\}}.*?(?=\\textbf|\\end\{{tabularx\}}|$)'
+            block_match = re.search(block_pattern, content, re.DOTALL)
+
+            email = ""
+            if block_match:
+                email_match = re.search(r'\\url\{([^}]+)\}', block_match.group(0))
+                if email_match:
+                    email = email_match.group(1)
 
             ref_entry = {
                 "name": name.strip(),
                 "position": position.strip(),
-                "email": email_match.group(1) if email_match else ""
+                "organization": organization.strip(),
+                "email": email
             }
-
-            # 소속 추출 (position 다음 줄)
-            org_match = re.search(rf'\\textbf\{{{re.escape(name)}\}}.*?([^\n\\]+)\s*\\par', content, re.DOTALL)
-            if org_match:
-                lines = [line.strip() for line in org_match.group(1).split(',') if line.strip()]
-                if len(lines) > 1:
-                    ref_entry["organization"] = lines[1]
 
             self.cv_data["references"].append(ref_entry)
 

@@ -245,6 +245,56 @@ function setupCollapsiblePublications() {
     });
 }
 
+function normalizeAuthorName(author) {
+    /**
+     * 저자명을 "Firstname Lastname" 형식으로 정규화
+     */
+    author = author.trim();
+
+    // 쉼표가 있으면 (Lastname, Firstname) -> (Firstname Lastname) 변환
+    if (author.includes(',')) {
+        const parts = author.split(',').map(p => p.trim());
+        if (parts.length === 2) {
+            return `${parts[1]} ${parts[0]}`;  // Firstname Lastname
+        }
+    }
+
+    // 쉼표 없으면 그대로 반환 (이미 Firstname Lastname 형식)
+    return author;
+}
+
+function formatAuthors(authorString) {
+    /**
+     * 저자 목록을 포맷팅: "저자1, 저자2, 저자3, and 저자4"
+     * Taewon Song은 bold 처리
+     */
+    if (!authorString) return '';
+
+    // "and"로 분리
+    const authors = authorString.split(/\s+and\s+/).map(a => normalizeAuthorName(a));
+
+    // Taewon Song을 bold 처리하는 함수
+    const highlightMyName = (author) => {
+        if (author === 'Taewon Song') {
+            return `<strong>${author}</strong>`;
+        }
+        return author;
+    };
+
+    if (authors.length === 0) {
+        return '';
+    } else if (authors.length === 1) {
+        return highlightMyName(authors[0]);
+    } else if (authors.length === 2) {
+        return `${highlightMyName(authors[0])} and ${highlightMyName(authors[1])}`;
+    } else {
+        // 3명 이상: "저자1, 저자2, 저자3, and 저자4"
+        const lastAuthor = authors[authors.length - 1];
+        const otherAuthors = authors.slice(0, -1);
+        return `${otherAuthors.map(highlightMyName).join(', ')}, and ${highlightMyName(lastAuthor)}`;
+    }
+}
+
 function createPublicationHTML(pub, number) {
     const venue = pub.journal || pub.booktitle || '';
     const volumeInfo = pub.volume ? `Vol. ${pub.volume}` : '';
@@ -256,12 +306,15 @@ function createPublicationHTML(pub, number) {
         (pub.doi.startsWith('http') ? pub.doi : `https://doi.org/${pub.doi}`) :
         pub.url;
 
+    // 저자명 포맷팅 (HTML 태그 포함하므로 escape 안 함)
+    const formattedAuthors = formatAuthors(pub.author);
+
     return `
         <div class="publication-item">
             <div class="publication-number">[${number}]</div>
             <div class="publication-content">
                 <div class="publication-title">${escapeHtml(pub.title)}</div>
-                <div class="publication-authors">${escapeHtml(pub.author)}</div>
+                <div class="publication-authors">${formattedAuthors}</div>
                 <div class="publication-venue">
                     ${escapeHtml(venue)}${venueDetails ? ', ' + venueDetails : ''}
                 </div>
