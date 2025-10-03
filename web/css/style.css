@@ -507,6 +507,38 @@ body {
     transform: translateX(3px);
 }
 
+/* JCR Q1 배지 강조 */
+.jcr-q1-badge {
+    font-weight: 700;
+    color: #059669;
+    background-color: #d1fae5;
+    padding: 2px 8px;
+    border-radius: 4px;
+    border: 1px solid #6ee7b7;
+}
+
+[data-theme="dark"] .jcr-q1-badge {
+    color: #6ee7b7;
+    background-color: rgba(5, 150, 105, 0.2);
+    border: 1px solid #059669;
+}
+
+/* JCR Ranking (퍼센테이지) 강조 */
+.jcr-ranking-badge {
+    font-weight: 600;
+    color: #dc2626;
+    background-color: #fee2e2;
+    padding: 2px 8px;
+    border-radius: 4px;
+    border: 1px solid #fca5a5;
+}
+
+[data-theme="dark"] .jcr-ranking-badge {
+    color: #fca5a5;
+    background-color: rgba(220, 38, 38, 0.2);
+    border: 1px solid #dc2626;
+}
+
 .publication-number {
     font-size: 1.1rem;
     font-weight: 700;
@@ -563,6 +595,14 @@ body {
 
 .publication-doi a:hover {
     text-decoration: underline;
+}
+
+/* Publication Metrics (IF, JCR) */
+.publication-metrics {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-top: 0.5rem;
+    font-style: italic;
 }
 
 /* ===================================

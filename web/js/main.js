@@ -309,8 +309,50 @@ function createPublicationHTML(pub, number) {
     // 저자명 포맷팅 (HTML 태그 포함하므로 escape 안 함)
     const formattedAuthors = formatAuthors(pub.author);
 
+    // Journal metrics (IF, JCR quantile/ranking, field)
+    let metricsHTML = '';
+    if (pub.impact_factor || pub.jcr_quantile || pub.jcr_ranking || pub.jcr_field) {
+        const metrics = [];
+
+        if (pub.impact_factor) {
+            metrics.push(`IF: ${pub.impact_factor}`);
+        }
+
+        // JCR quantile (Q1, Q2, etc.) or ranking (Top 9%, etc.)
+        const jcrInfo = [];
+        const isQ1 = pub.jcr_quantile && pub.jcr_quantile.toUpperCase() === 'Q1';
+
+        if (pub.jcr_quantile) {
+            const quantile = pub.jcr_quantile;
+            // Q1은 강조, 나머지는 일반
+            jcrInfo.push(isQ1 ? `<span class="jcr-q1-badge">${quantile}</span>` : quantile);
+        }
+
+        // 퍼센테이지는 Q1일 때만 표시
+        if (isQ1 && pub.jcr_ranking) {
+            // 소수점 버림 처리
+            const rankingMatch = pub.jcr_ranking.match(/(\d+\.?\d*)/);
+            if (rankingMatch) {
+                const percentage = Math.floor(parseFloat(rankingMatch[1]));
+                jcrInfo.push(`<span class="jcr-ranking-badge">Top ${percentage}%</span>`);
+            }
+        }
+
+        if (jcrInfo.length > 0) {
+            metrics.push(`JCR ${jcrInfo.join(', ')}`);
+        }
+
+        if (pub.jcr_field) {
+            metrics.push(`in ${pub.jcr_field}`);
+        }
+
+        metricsHTML = `<div class="publication-metrics">(${metrics.join(', ')})</div>`;
+    }
+
+    const itemClass = 'publication-item';
+
     return `
-        <div class="publication-item">
+        <div class="${itemClass}">
             <div class="publication-number">[${number}]</div>
             <div class="publication-content">
                 <div class="publication-title">${escapeHtml(pub.title)}</div>
@@ -331,6 +373,7 @@ function createPublicationHTML(pub, number) {
                         </span>
                     ` : ''}
                 </div>
+                ${metricsHTML}
             </div>
         </div>
     `;

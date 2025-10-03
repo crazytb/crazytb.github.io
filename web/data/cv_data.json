@@ -83,7 +83,11 @@
         "pages": "107986",
         "doi": "https://doi.org/10.1016/j.future.2025.107986",
         "url": "",
-        "keywords": "Serverless computing, Cloud, Internet of things (IoT), Container management, Cold start"
+        "keywords": "Serverless computing, Cloud, Internet of things (IoT), Container management, Cold start",
+        "impact_factor": "6.1",
+        "jcr_quantile": "Q1",
+        "jcr_ranking": "Top 9.9%",
+        "jcr_field": "COMPUTER SCIENCE, THEORY & METHODS"
       },
       {
         "type": "article",
@@ -98,7 +102,11 @@
         "pages": "2656",
         "doi": "10.3390/app15052656",
         "url": "https://www.mdpi.com/2076-3417/15/5/2656",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "2.5",
+        "jcr_quantile": "Q1",
+        "jcr_ranking": "Top 24.0%",
+        "jcr_field": "ENGINEERING, MULTIDISCIPLINARY"
       },
       {
         "type": "article",
@@ -113,7 +121,11 @@
         "pages": "29993--30003",
         "doi": "10.1109/JIOT.2024.3410328",
         "url": "",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "10.6",
+        "jcr_quantile": "Q1",
+        "jcr_ranking": "Top 2.2%",
+        "jcr_field": "COMPUTER SCIENCE, INFORMATION SYSTEMS"
       },
       {
         "type": "article",
@@ -128,7 +140,11 @@
         "pages": "3321–-3335",
         "doi": "10.1007/s11276-024-03739-9",
         "url": "",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "3.0",
+        "jcr_quantile": "Q2",
+        "jcr_ranking": "Top 45.3%",
+        "jcr_field": "ENGINEERING, ELECTRICAL & ELECTRONIC"
       },
       {
         "type": "article",
@@ -143,7 +159,11 @@
         "pages": "16700--16709",
         "doi": "10.1109/JIOT.2024.3355410",
         "url": "",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "10.6",
+        "jcr_quantile": "Q1",
+        "jcr_ranking": "Top 2.2%",
+        "jcr_field": "COMPUTER SCIENCE, INFORMATION SYSTEMS"
       },
       {
         "type": "article",
@@ -158,7 +178,11 @@
         "pages": "591--598",
         "doi": "10.1049/itr2.12255",
         "url": "https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/itr2.12255",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "2.7",
+        "jcr_quantile": "Q3",
+        "jcr_ranking": "Top 51.1%",
+        "jcr_field": "ENGINEERING, ELECTRICAL & ELECTRONIC"
       },
       {
         "type": "article",
@@ -173,7 +197,11 @@
         "pages": "357",
         "doi": "10.3390/s24020357",
         "url": "https://www.mdpi.com/1424-8220/24/2/357",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "3.9",
+        "jcr_quantile": "Q2",
+        "jcr_ranking": "Top 29.4%",
+        "jcr_field": "INSTRUMENTS & INSTRUMENTATION"
       },
       {
         "type": "article",
@@ -188,7 +216,11 @@
         "pages": "10302-10313",
         "doi": "10.1109/TVT.2023.3257424",
         "url": "",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "6.239",
+        "jcr_quantile": "Q1",
+        "jcr_ranking": "Top 13.587%",
+        "jcr_field": "ENGINEERING, ELECTRICAL & ELECTRONIC"
       },
       {
         "type": "article",
@@ -203,7 +235,11 @@
         "pages": "105508",
         "doi": "10.1016/j.engappai.2022.105508",
         "url": "https://www.sciencedirect.com/science/article/pii/S0952197622004985",
-        "keywords": "Sensor data augmentation, Generative adversarial network, People counting, Moving direction, Pyroelectric infrared (PIR) sensor, Multi-task learning, Convolutional neural network"
+        "keywords": "Sensor data augmentation, Generative adversarial network, People counting, Moving direction, Pyroelectric infrared (PIR) sensor, Multi-task learning, Convolutional neural network",
+        "impact_factor": "7.802",
+        "jcr_quantile": "Q1",
+        "jcr_ranking": "Top 4.891%",
+        "jcr_field": "ENGINEERING, MULTIDISCIPLINARY"
       },
       {
         "type": "article",
@@ -218,7 +254,11 @@
         "pages": "4118",
         "doi": "10.3390/electronics11244118",
         "url": "https://www.mdpi.com/2079-9292/11/24/4118",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "2.397",
+        "jcr_quantile": "Q3",
+        "jcr_ranking": "Top 52.93%",
+        "jcr_field": "ENGINEERING, ELECTRICAL & ELECTRONIC"
       },
       {
         "type": "article",
@@ -233,7 +273,11 @@
         "pages": "7967",
         "doi": "10.3390/s22207967",
         "url": "https://www.mdpi.com/1424-8220/22/20/7967",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "3.576",
+        "jcr_quantile": "Q1",
+        "jcr_ranking": "Top 21.094%",
+        "jcr_field": "INSTRUMENTS & INSTRUMENTATION"
       },
       {
         "type": "article",
@@ -248,7 +292,11 @@
         "pages": "317",
         "doi": "10.3390/app11010317",
         "url": "https://www.mdpi.com/2076-3417/11/1/317",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "2.5",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -263,7 +311,11 @@
         "pages": "3940",
         "doi": "10.3390/en13153940",
         "url": "https://www.mdpi.com/1996-1073/13/15/3940",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "3.0",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -278,7 +330,11 @@
         "pages": "287-290",
         "doi": "https://doi.org/10.1016/j.icte.2020.04.007",
         "url": "https://www.sciencedirect.com/science/article/pii/S2405959520300825",
-        "keywords": "IEEE 802.11ax, MORA, MU-MIMO, OFDMA"
+        "keywords": "IEEE 802.11ax, MORA, MU-MIMO, OFDMA",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -293,7 +349,11 @@
         "pages": "5106",
         "doi": "10.3390/s19235106",
         "url": "https://www.mdpi.com/1424-8220/19/23/5106",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -308,7 +368,11 @@
         "pages": "4466-4475",
         "doi": "10.1109/TVT.2018.2789362",
         "url": "",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -323,7 +387,11 @@
         "pages": "3172-3185",
         "doi": "10.1109/TVT.2017.2777902",
         "url": "",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -338,7 +406,11 @@
         "pages": "11419-11424",
         "doi": "10.1109/TVT.2017.2729590",
         "url": "",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -353,7 +425,11 @@
         "pages": "1767--1777",
         "doi": "10.1007/s11276-015-1064-3",
         "url": "",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -368,7 +444,11 @@
         "pages": "2351--2361",
         "doi": "10.1007/s11277-015-2351-0",
         "url": "",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -383,7 +463,11 @@
         "pages": "1007--1017",
         "doi": "10.1007/s11277-013-1551-8",
         "url": "",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -398,7 +482,11 @@
         "pages": "1143-1155",
         "doi": "10.1109/TVT.2014.2329303",
         "url": "",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -413,7 +501,11 @@
         "pages": "1379--1390",
         "doi": "10.1007/s11277-012-0639-x",
         "url": "",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -428,7 +520,11 @@
         "pages": "616-619",
         "doi": "10.1109/LCOMM.2013.011513.122519",
         "url": "",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -443,7 +539,11 @@
         "pages": "473--488",
         "doi": "10.1007/s11277-011-0353-0",
         "url": "",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       }
     ],
     "conferences": [
@@ -460,7 +560,11 @@
         "pages": "2153--2154",
         "doi": "10.1109/ICTC62082.2024.10826811",
         "url": "",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "inproceedings",
@@ -475,7 +579,11 @@
         "pages": "869-871",
         "doi": "10.1109/ICTC58733.2023.10393330",
         "url": "",
-        "keywords": "Simulation;Pricing;Performance gain;Markov processes;Information and communication technology;Noise measurement;Convergence;Non-public networks (NPNs);network function (NF) deployment;Markov decision process (MDP)"
+        "keywords": "Simulation;Pricing;Performance gain;Markov processes;Information and communication technology;Noise measurement;Convergence;Non-public networks (NPNs);network function (NF) deployment;Markov decision process (MDP)",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "inproceedings",
@@ -490,7 +598,11 @@
         "pages": "881-884",
         "doi": "10.1109/ICTC58733.2023.10392829",
         "url": "",
-        "keywords": "Wireless communication;Multi-access edge computing;5G mobile communication;Computational modeling;Telecommunication traffic;Reinforcement learning;Autonomous aerial vehicles;5G mobile networks;task offloading;deep reinforcement learning;DQN;mobile edge computing"
+        "keywords": "Wireless communication;Multi-access edge computing;5G mobile communication;Computational modeling;Telecommunication traffic;Reinforcement learning;Autonomous aerial vehicles;5G mobile networks;task offloading;deep reinforcement learning;DQN;mobile edge computing",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "inproceedings",
@@ -505,7 +617,11 @@
         "pages": "885-888",
         "doi": "10.1109/ICTC58733.2023.10393732",
         "url": "",
-        "keywords": "Training;Adaptation models;Federated learning;Computational modeling;Neural networks;Data models;Information and communication technology;federated learning;adaptive scaling;normalization performance;Deep Q-network"
+        "keywords": "Training;Adaptation models;Federated learning;Computational modeling;Neural networks;Data models;Information and communication technology;federated learning;adaptive scaling;normalization performance;Deep Q-network",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "inproceedings",
@@ -520,7 +636,11 @@
         "pages": "395--397",
         "doi": "",
         "url": "",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "inproceedings",
@@ -535,7 +655,11 @@
         "pages": "631--633",
         "doi": "",
         "url": "",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "inproceedings",
@@ -550,7 +674,11 @@
         "pages": "1--5",
         "doi": "10.1109/VTCSpring.2014.7022791",
         "url": "",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "inproceedings",
@@ -565,7 +693,11 @@
         "pages": "364--365",
         "doi": "10.1109/ICCE.2012.6161903",
         "url": "",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "inproceedings",
@@ -580,7 +712,11 @@
         "pages": "1--5",
         "doi": "10.1109/ICCCN.2011.6006051",
         "url": "",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "inproceedings",
@@ -595,7 +731,11 @@
         "pages": "1124--1125",
         "doi": "10.1109/CCNC.2011.5766349",
         "url": "",
-        "keywords": ""
+        "keywords": "",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       }
     ],
     "books": []

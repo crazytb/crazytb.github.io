@@ -11,6 +11,7 @@ import json
 import os
 from pathlib import Path
 from typing import Dict, List, Any
+import pandas as pd
 
 
 class TexCVParser:
@@ -37,6 +38,57 @@ class TexCVParser:
             },
             "references": []
         }
+        self.journal_metrics = self._load_journal_metrics()
+
+    def _load_journal_metrics(self) -> Dict[str, Dict[str, str]]:
+        """Excel 파일에서 저널 메트릭 정보를 로드"""
+        excel_path = self.base_dir / "journal_pubs.xlsx"
+
+        if not excel_path.exists():
+            print(f"⚠ {excel_path} not found, journal metrics will not be available")
+            return {}
+
+        try:
+            df = pd.read_excel(excel_path)
+            metrics_dict = {}
+
+            for _, row in df.iterrows():
+                title = str(row.get('제목', '')).strip()
+                if not title or title == 'nan':
+                    continue
+
+                # 제목을 키로 사용 (정규화: 소문자, 공백 제거)
+                title_key = title.lower().replace(' ', '')
+
+                metrics = {}
+
+                # Impact Factor
+                if pd.notna(row.get('Impact Factor')):
+                    metrics['impact_factor'] = str(row['Impact Factor'])
+
+                # JCR (percentile ranking)
+                if pd.notna(row.get('JCR')):
+                    jcr_val = row['JCR']
+                    # Top X% 형식으로 변환
+                    metrics['jcr_ranking'] = f"Top {jcr_val}%"
+
+                # 분야
+                if pd.notna(row.get('분야')):
+                    metrics['jcr_field'] = str(row['분야'])
+
+                # Rating (Q1, Q2 등)
+                if pd.notna(row.get('Rating')):
+                    metrics['jcr_quantile'] = str(row['Rating'])
+
+                if metrics:
+                    metrics_dict[title_key] = metrics
+
+            print(f"✓ Loaded metrics for {len(metrics_dict)} publications from Excel")
+            return metrics_dict
+
+        except Exception as e:
+            print(f"⚠ Error loading journal metrics from Excel: {e}")
+            return {}
 
     def parse_main_file(self, main_file: str = "cv-taewon.tex"):
         """메인 TeX 파일에서 개인 정보 추출"""
@@ -241,10 +293,11 @@ class TexCVParser:
                     field_dict[field_name.lower()] = value
 
             # 저자, 제목, 연도 추출
+            title = field_dict.get('title', '').strip('{}')
             pub_entry = {
                 "type": entry_type.lower(),
                 "key": key,
-                "title": field_dict.get('title', '').strip('{}'),
+                "title": title,
                 "author": field_dict.get('author', '').replace('*', ''),  # 별표 제거
                 "year": field_dict.get('year', ''),
                 "journal": field_dict.get('journal', ''),
@@ -254,8 +307,26 @@ class TexCVParser:
                 "pages": field_dict.get('pages', ''),
                 "doi": field_dict.get('doi', ''),
                 "url": field_dict.get('url', ''),
-                "keywords": field_dict.get('keywords', '')
+                "keywords": field_dict.get('keywords', ''),
+                "impact_factor": field_dict.get('impact_factor', ''),
+                "jcr_quantile": field_dict.get('jcr_quantile', ''),
+                "jcr_ranking": field_dict.get('jcr_ranking', ''),
+                "jcr_field": field_dict.get('jcr_field', '')
             }
+
+            # Excel 파일에서 메트릭 정보 매칭 (bib 파일에 없는 경우만)
+            title_key = title.lower().replace(' ', '')
+            if title_key in self.journal_metrics:
+                excel_metrics = self.journal_metrics[title_key]
+                # bib 파일에 값이 없으면 Excel 값 사용
+                if not pub_entry['impact_factor']:
+                    pub_entry['impact_factor'] = excel_metrics.get('impact_factor', '')
+                if not pub_entry['jcr_quantile']:
+                    pub_entry['jcr_quantile'] = excel_metrics.get('jcr_quantile', '')
+                if not pub_entry['jcr_ranking']:
+                    pub_entry['jcr_ranking'] = excel_metrics.get('jcr_ranking', '')
+                if not pub_entry['jcr_field']:
+                    pub_entry['jcr_field'] = excel_metrics.get('jcr_field', '')
 
             # 카테고리별로 분류 (books 제외)
             if 'early access' in pub_entry['keywords'].lower():

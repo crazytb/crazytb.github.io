@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber cv-taewon"] 1758435102 "cv-taewon.bcf" "cv-taewon.bbl" "cv-taewon" 1759340033
+["biber cv-taewon"] 1759516228 "cv-taewon.bcf" "cv-taewon.bbl" "cv-taewon" 1759516229
   "cv-taewon.bcf" 1759340033 106384 8948983adc4eb695ef4114e58320bbe8 "pdflatex"
-  "own-bib.bib" 1758431169 15004 ccf0cb2853a68317e7d1c2f40834c980 ""
+  "own-bib.bib" 1759516228 15003 39f4b46e4a24080e82a5b6c8d09073df ""
   (generated)
   "cv-taewon.bbl"
   "cv-taewon.blg"
-["pdflatex"] 1759340031 "/home/crazytb/Code/curriculum_vitae/cv-taewon.tex" "cv-taewon.pdf" "cv-taewon" 1759340033
+["pdflatex"] 1759340031 "/home/crazytb/Code/curriculum_vitae/cv-taewon.tex" "cv-taewon.pdf" "cv-taewon" 1759516229
   "/etc/texmf/web2c/texmf.cnf" 1757083627 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/crazytb/.texlive2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1757086582 1405641 b3640e9491f4f41393750759fac6a73c ""
   "/home/crazytb/Code/curriculum_vitae/cv-taewon.tex" 1758435470 4332 d4ffea375e12e747a56e19bcb7af192b ""
@@ -349,7 +349,7 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1757094466 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "bio.tex" 1759340031 991 5e6582ffb5003a9a90ff4658743bdef3 ""
   "cv-taewon.aux" 1759340033 6679 54e118e425c8f7a814b29c98027199db "pdflatex"
-  "cv-taewon.bbl" 1758435103 69105 abebaca39a2b2265bc5984c78b7f13bd "biber cv-taewon"
+  "cv-taewon.bbl" 1759516229 69105 abebaca39a2b2265bc5984c78b7f13bd "biber cv-taewon"
   "cv-taewon.out" 1759340032 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "cv-taewon.run.xml" 1759340033 2434 7ef16c05c3ad00641320a2198ba38ebc "pdflatex"
   "cv-taewon.tex" 1758435470 4332 d4ffea375e12e747a56e19bcb7af192b ""
