@@ -34,6 +34,11 @@ jobs:
         with:
           python-version: '3.11'
 
+      # Install Python dependencies
+      - name: Install Python dependencies
+        run: |
+          pip install pandas openpyxl
+
       # Install LaTeX
       - name: Install LaTeX
         run: |
