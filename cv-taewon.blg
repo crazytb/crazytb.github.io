@@ -1,17 +1,17 @@
-[0] Config.pm:311> INFO - This is Biber 2.16
-[0] Config.pm:314> INFO - Logfile is 'cv-taewon.blg'
-[49] biber-darwin:340> INFO - === Mon Oct  6, 2025, 16:57:30
-[63] Biber.pm:415> INFO - Reading 'cv-taewon.bcf'
-[122] Biber.pm:949> INFO - Using all citekeys in bib section 0
-[132] Biber.pm:4340> INFO - Processing section 0
-[140] Biber.pm:4531> INFO - Looking for bibtex format file 'own-bib.bib' for section 0
-[142] bibtex.pm:1689> INFO - LaTeX decoding ...
-[167] bibtex.pm:1494> INFO - Found BibTeX data source 'own-bib.bib'
-[307] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/7x/6zct7wks35n21xhkxwrwggvr0000gn/T/biber_tmp__nZQ/d47b668d4e9abee119c28f333410e92d_95371.utf8, line 11, warning: 294 characters of junk seen at toplevel
-[337] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[337] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[337] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[338] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[358] bbl.pm:654> INFO - Writing 'cv-taewon.bbl' with encoding 'UTF-8'
-[374] bbl.pm:757> INFO - Output to cv-taewon.bbl
-[374] Biber.pm:128> INFO - WARNINGS: 1
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'cv-taewon.blg'
+[34] biber:340> INFO - === 화 12월  2, 2025, 00:29:13
+[43] Biber.pm:418> INFO - Reading 'cv-taewon.bcf'
+[71] Biber.pm:969> INFO - Using all citekeys in bib section 0
+[77] Biber.pm:4383> INFO - Processing section 0
+[83] Biber.pm:4574> INFO - Looking for bibtex file 'own-bib.bib' for section 0
+[84] bibtex.pm:1713> INFO - LaTeX decoding ...
+[100] bibtex.pm:1518> INFO - Found BibTeX data source 'own-bib.bib'
+[232] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[232] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[232] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[232] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[246] bbl.pm:654> INFO - Writing 'cv-taewon.bbl' with encoding 'UTF-8'
+[261] bbl.pm:757> INFO - Output to cv-taewon.bbl
+[261] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_DVIT/d47b668d4e9abee119c28f333410e92d_8511.utf8, line 11, warning: 294 characters of junk seen at toplevel
+[261] Biber.pm:132> INFO - WARNINGS: 1
