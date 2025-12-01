@@ -128,7 +128,7 @@
                  test {\ifdefstrequal{\namepartgiven}{\my@gname}}}
       {\global\toggletrue{boldname}}{}%
   }%
-  \iftoggle{boldname}{\textbf{#1}}{#1}%
+  \iftoggle{boldname}{\textbf{#1}$^{*}$}{#1}%
 }
 
 \renewcommand*{\mkbibnamegiven}[1]{%

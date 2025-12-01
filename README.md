@@ -34,12 +34,17 @@ curriculum_vitae/
 ### Build PDF Locally
 
 ```bash
-# Using pdflatex
+# Quick build (recommended)
+./build_cv.sh
+
+# Manual build using pdflatex
 pdflatex cv-taewon.tex
 
-# Or using latexmk (recommended)
+# Or using latexmk
 latexmk -pdf cv-taewon.tex
 ```
+
+**Note**: The build script automatically updates the "Last Updated" date from the most recent git commit.
 
 ### Generate Web Version
 
