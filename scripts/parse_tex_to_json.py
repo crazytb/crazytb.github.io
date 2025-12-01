@@ -80,6 +80,12 @@ class TexCVParser:
                 if pd.notna(row.get('Rating')):
                     metrics['jcr_quantile'] = str(row['Rating'])
 
+                # 주저자 여부 (1이면 주저자)
+                if pd.notna(row.get('주저자여부')):
+                    first_author = str(row['주저자여부']).strip()
+                    # '1' 또는 '1 (공동)' 형태를 체크
+                    metrics['is_first_author'] = first_author.startswith('1')
+
                 if metrics:
                     metrics_dict[title_key] = metrics
 
@@ -327,6 +333,8 @@ class TexCVParser:
                     pub_entry['jcr_ranking'] = excel_metrics.get('jcr_ranking', '')
                 if not pub_entry['jcr_field']:
                     pub_entry['jcr_field'] = excel_metrics.get('jcr_field', '')
+                # 주저자 여부 추가
+                pub_entry['is_first_author'] = excel_metrics.get('is_first_author', False)
 
             # 카테고리별로 분류 (books 제외)
             if 'early access' in pub_entry['keywords'].lower():

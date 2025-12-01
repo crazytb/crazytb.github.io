@@ -87,7 +87,8 @@
         "impact_factor": "6.1",
         "jcr_quantile": "Q1",
         "jcr_ranking": "Top 9.9%",
-        "jcr_field": "COMPUTER SCIENCE, THEORY & METHODS"
+        "jcr_field": "COMPUTER SCIENCE, THEORY & METHODS",
+        "is_first_author": true
       },
       {
         "type": "article",
@@ -106,7 +107,8 @@
         "impact_factor": "2.5",
         "jcr_quantile": "Q1",
         "jcr_ranking": "Top 24.0%",
-        "jcr_field": "ENGINEERING, MULTIDISCIPLINARY"
+        "jcr_field": "ENGINEERING, MULTIDISCIPLINARY",
+        "is_first_author": true
       },
       {
         "type": "article",
@@ -125,7 +127,8 @@
         "impact_factor": "10.6",
         "jcr_quantile": "Q1",
         "jcr_ranking": "Top 2.2%",
-        "jcr_field": "COMPUTER SCIENCE, INFORMATION SYSTEMS"
+        "jcr_field": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+        "is_first_author": true
       },
       {
         "type": "article",
@@ -144,7 +147,8 @@
         "impact_factor": "3.0",
         "jcr_quantile": "Q2",
         "jcr_ranking": "Top 45.3%",
-        "jcr_field": "ENGINEERING, ELECTRICAL & ELECTRONIC"
+        "jcr_field": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+        "is_first_author": false
       },
       {
         "type": "article",
@@ -163,7 +167,8 @@
         "impact_factor": "10.6",
         "jcr_quantile": "Q1",
         "jcr_ranking": "Top 2.2%",
-        "jcr_field": "COMPUTER SCIENCE, INFORMATION SYSTEMS"
+        "jcr_field": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+        "is_first_author": true
       },
       {
         "type": "article",
@@ -182,7 +187,8 @@
         "impact_factor": "2.7",
         "jcr_quantile": "Q3",
         "jcr_ranking": "Top 51.1%",
-        "jcr_field": "ENGINEERING, ELECTRICAL & ELECTRONIC"
+        "jcr_field": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+        "is_first_author": true
       },
       {
         "type": "article",
@@ -201,7 +207,8 @@
         "impact_factor": "3.9",
         "jcr_quantile": "Q2",
         "jcr_ranking": "Top 29.4%",
-        "jcr_field": "INSTRUMENTS & INSTRUMENTATION"
+        "jcr_field": "INSTRUMENTS & INSTRUMENTATION",
+        "is_first_author": true
       },
       {
         "type": "article",
@@ -220,7 +227,8 @@
         "impact_factor": "6.239",
         "jcr_quantile": "Q1",
         "jcr_ranking": "Top 13.587%",
-        "jcr_field": "ENGINEERING, ELECTRICAL & ELECTRONIC"
+        "jcr_field": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+        "is_first_author": true
       },
       {
         "type": "article",
@@ -239,7 +247,8 @@
         "impact_factor": "7.802",
         "jcr_quantile": "Q1",
         "jcr_ranking": "Top 4.891%",
-        "jcr_field": "ENGINEERING, MULTIDISCIPLINARY"
+        "jcr_field": "ENGINEERING, MULTIDISCIPLINARY",
+        "is_first_author": false
       },
       {
         "type": "article",
@@ -258,7 +267,8 @@
         "impact_factor": "2.397",
         "jcr_quantile": "Q3",
         "jcr_ranking": "Top 52.93%",
-        "jcr_field": "ENGINEERING, ELECTRICAL & ELECTRONIC"
+        "jcr_field": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+        "is_first_author": false
       },
       {
         "type": "article",
@@ -277,7 +287,8 @@
         "impact_factor": "3.576",
         "jcr_quantile": "Q1",
         "jcr_ranking": "Top 21.094%",
-        "jcr_field": "INSTRUMENTS & INSTRUMENTATION"
+        "jcr_field": "INSTRUMENTS & INSTRUMENTATION",
+        "is_first_author": true
       },
       {
         "type": "article",
@@ -296,7 +307,8 @@
         "impact_factor": "2.5",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": ""
+        "jcr_field": "",
+        "is_first_author": true
       },
       {
         "type": "article",
@@ -315,7 +327,8 @@
         "impact_factor": "3.0",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": ""
+        "jcr_field": "",
+        "is_first_author": false
       },
       {
         "type": "article",
@@ -334,7 +347,8 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": ""
+        "jcr_field": "",
+        "is_first_author": false
       },
       {
         "type": "article",
@@ -353,7 +367,8 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": ""
+        "jcr_field": "",
+        "is_first_author": true
       },
       {
         "type": "article",
@@ -391,7 +406,8 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": ""
+        "jcr_field": "",
+        "is_first_author": false
       },
       {
         "type": "article",
@@ -410,7 +426,8 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": ""
+        "jcr_field": "",
+        "is_first_author": false
       },
       {
         "type": "article",
@@ -429,7 +446,8 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": ""
+        "jcr_field": "",
+        "is_first_author": false
       },
       {
         "type": "article",
@@ -448,7 +466,8 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": ""
+        "jcr_field": "",
+        "is_first_author": true
       },
       {
         "type": "article",
@@ -543,7 +562,8 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": ""
+        "jcr_field": "",
+        "is_first_author": false
       }
     ],
     "conferences": [
@@ -564,7 +584,8 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": ""
+        "jcr_field": "",
+        "is_first_author": true
       },
       {
         "type": "inproceedings",
@@ -583,7 +604,8 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": ""
+        "jcr_field": "",
+        "is_first_author": false
       },
       {
         "type": "inproceedings",
@@ -602,7 +624,8 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": ""
+        "jcr_field": "",
+        "is_first_author": true
       },
       {
         "type": "inproceedings",
@@ -621,7 +644,8 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": ""
+        "jcr_field": "",
+        "is_first_author": false
       },
       {
         "type": "inproceedings",
@@ -640,7 +664,8 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": ""
+        "jcr_field": "",
+        "is_first_author": true
       },
       {
         "type": "inproceedings",
@@ -659,7 +684,8 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": ""
+        "jcr_field": "",
+        "is_first_author": true
       },
       {
         "type": "inproceedings",
@@ -678,7 +704,8 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": ""
+        "jcr_field": "",
+        "is_first_author": true
       },
       {
         "type": "inproceedings",
@@ -697,7 +724,8 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": ""
+        "jcr_field": "",
+        "is_first_author": false
       },
       {
         "type": "inproceedings",
@@ -716,7 +744,8 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": ""
+        "jcr_field": "",
+        "is_first_author": false
       },
       {
         "type": "inproceedings",
@@ -735,7 +764,8 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": ""
+        "jcr_field": "",
+        "is_first_author": true
       }
     ],
     "books": []
@@ -762,6 +792,14 @@
       {
         "year": "2025",
         "activity": "IEEE Globecom 2025 SAC - CECN (2025 IEEE Global Communications Conference Selected Areas in Communications: Cloud/Edge Computing and Networking) TPC member"
+      },
+      {
+        "year": "2025",
+        "activity": "ICTC 2025 TPC member"
+      },
+      {
+        "year": "2024",
+        "activity": "IEEE Globecom 2024 SAC - CLOUD-NET TPC member"
       },
       {
         "year": "2024",

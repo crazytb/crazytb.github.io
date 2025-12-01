@@ -263,20 +263,21 @@ function normalizeAuthorName(author) {
     return author;
 }
 
-function formatAuthors(authorString) {
+function formatAuthors(authorString, isFirstAuthor = false) {
     /**
      * 저자 목록을 포맷팅: "저자1, 저자2, 저자3, and 저자4"
-     * Taewon Song은 bold 처리
+     * Taewon Song은 bold 처리, 주저자일 경우 별표 추가
      */
     if (!authorString) return '';
 
     // "and"로 분리
     const authors = authorString.split(/\s+and\s+/).map(a => normalizeAuthorName(a));
 
-    // Taewon Song을 bold 처리하는 함수
+    // Taewon Song을 bold 처리하는 함수 (주저자일 경우 별표 추가)
     const highlightMyName = (author) => {
         if (author === 'Taewon Song') {
-            return `<strong>${author}</strong>`;
+            const asterisk = isFirstAuthor ? '<sup>*</sup>' : '';
+            return `<strong>${author}${asterisk}</strong>`;
         }
         return author;
     };
@@ -307,7 +308,9 @@ function createPublicationHTML(pub, number) {
         pub.url;
 
     // 저자명 포맷팅 (HTML 태그 포함하므로 escape 안 함)
-    const formattedAuthors = formatAuthors(pub.author);
+    // is_first_author 정보가 있으면 사용
+    const isFirstAuthor = pub.is_first_author === true;
+    const formattedAuthors = formatAuthors(pub.author, isFirstAuthor);
 
     // Journal metrics (IF, JCR quantile/ranking, field)
     let metricsHTML = '';
