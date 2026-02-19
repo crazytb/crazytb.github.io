@@ -1,0 +1,56 @@
+【31】 LG ELECTRONICS INC., "Measurement for space reuse in multi-AP system", US Patent 12,414,050, 2025.09.09
+【32】 LG ELECTRONICS INC., "Transmission of capability information about link", US Patent 12,408,083, 2025.09.02
+【33】 LG Electronics Inc., "Dynamic configuration of multi-link function in wireless LAN system", US Patent 12,389,478, 2025.08.12
+【34】 LG ELECTRONICS INC., "Link deactivation in multi-link", US Patent 12,389,493, 2025.08.12
+【35】 LG ELECTRONICS INC., "Reuse of space in multi-ap system", US Patent 12,376,042, 2025.07.29
+【36】 LG ELECTRONICS INC., "Technique for performing multi-link communication in wireless communication system", US Patent 12,369,122, 2025.07.22
+【37】 LG ELECTRONICS INC., "Technique for performing multilink communication in wireless communication system", US Patent 12,356,479, 2025.07.08
+【38】 LG Electronics Inc., "Multi-link setup in wireless communication system", US Patent 12,342,403, 2025.06.24
+【39】 LG ELECTRONICS INC., "Method for performing multi-link communication in wireless communication system", US Patent 12,336,031, 2025.06.17
+【40】 LG ELECTRONICS INC., "Technique for performing multi-link communication in wireless communication system", US Patent 12,336,032, 2025.06.17
+【41】 LG ELECTRONICS INC., "Transmission power in multi-AP transmission using space reuse", US Patent 12,328,686, 2025.06.10
+【42】 LG ELECTRONICS INC., "Trigger-based data transmission", US Patent 12,317,317, 2025.05.27
+【43】 LG ELECTRONICS INC., "Method and device for acquiring information on links between MLDs in wireless LAN system", US Patent 12,317,351, 2025.05.27
+【44】 LG ELECTRONICS INC., "HARQ operations at PHY layer level", US Patent 12,309,099, 2025.05.20
+【45】 LG ELECTRONICS INC., "Technique for performing multi-link communication in wireless communication system", US Patent 12,302,248, 2025.05.13
+【46】 LG ELECTRONICS INC., "Shared AP selection in multi-AP system", US Patent 12,302,213, 2025.05.13
+【47】 LG ELECTRONICS INC., "Technique for performing multi-link communication in wireless communication system", US Patent 12,289,685, 2025.04.29
+【48】 LG ELECTRONICS INC., "Multi-link channel access", US Patent 12,279,303, 2025.04.15
+【49】 LG ELECTRONICS INC., "Method for performing multi-link communication in wireless communication system", US Patent 12,273,945, 2025.04.08
+【50】 LG ELECTRONICS INC., "Signaling for multi-link transmission", US Patent 12,267,900, 2025.04.01
+【51】 LG ELECTRONICS INC., "Ack transmission using multilink", US Patent 12,250,076, 2025.03.11
+【52】 LG ELECTRONICS INC., "Multi-link channel access", US Patent 12,238,761, 2025.02.25
+【53】 LG ELECTRONICS INC., "Method for performing multi-link communication in wireless communication system", US Patent 12,219,638, 2025.02.04
+【54】 LG ELECTRONICS INC., "Method for changing channel in multi-links", US Patent 12,219,644, 2025.02.04
+【55】 LG ELECTRONICS INC., "Transmission of capability information about link", US Patent 12,200,544, 2025.01.14
+【56】 LG ELECTRONICS INC., "Technique for performing multi-link communication in wireless communication system", US Patent 12,192,875, 2025.01.07
+【57】 LG ELECTRONICS INC., "NACK frame for HARQ operation", US Patent 12,184,426, 2024.12.31
+【58】 LG ELECTRONICS INC., "Mapping of TID and link in multi-link", US Patent 12,177,914, 2024.12.24
+【59】 LG ELECTRONICS INC., "Resumption of PHY-level HARQ operation", US Patent 12,166,584, 2024.12.10
+【60】 LG ELECTRONICS INC., "MPDU padding for HARQ operation", US Patent 12,150,098, 2024.11.19
+【61】 LG ELECTRONICS INC., "Method for performing multi-link communication in wireless communication system", US Patent 12,133,162, 2024.10.29
+【62】 LG ELECTRONICS INC., "Multi-link RTS and CTS transmissions", US Patent 12,120,741, 2024.10.15
+【63】 LG ELECTRONICS INC., "Mapping of TID and link in multi-link", US Patent 12,120,763, 2024.10.15
+【64】 LG ELECTRONICS INC., "Data sharing in multi-AP system", US Patent 12,108,418, 2024.10.01
+【65】 LG ELECTRONICS INC., "Method for performing multi-link communication in wireless communication system", US Patent 12,089,140, 2024.09.10
+【66】 LG ELECTRONICS INC., "Multi-link RTS and CTS transmissions", US Patent 12,089,255, 2024.09.10
+【67】 LG ELECTRONICS INC., "Channel access in multi-link", US Patent 12,082,242, 2024.09.03
+【68】 LG ELECTRONICS INC., "Method and device for acquiring information on links between MLDS in wireless LAN system", US Patent 12,082,281, 2024.09.03
+【69】 LG ELECTRONICS INC., "Signaling for multi-link transmission", US Patent 12,058,753, 2024.08.06
+【70】 LG ELECTRONICS INC., "Multi-link operation mode", US Patent 12,041,675, 2024.07.16
+【71】 LG ELECTRONICS INC., "Transmission of a second ACK after failure of first ACK", US Patent 12,010,683, 2024.06.11
+【72】 LG ELECTRONICS INC., "Method and device for transmitting data in wireless LAN system", US Patent 11,991,676, 2024.05.21
+【73】 LG ELECTRONICS INC., "Codeword-setting technique for HARQ operation", US Patent 11,984,973, 2024.05.14
+【74】 LG ELECTRONICS INC., "Method and device for controlling plurality of links in wireless local area network system supporting plurality of links", US Patent 11,943,809, 2024.03.26
+【75】 LG ELECTRONICS INC., "Method and device for transceiving frame in wireless LAN system", US Patent 11,916,822, 2024.02.27
+【76】 LG Electronics Inc., "Method and device for receiving WUR discovery frame in wireless LAN system", US Patent 11,889,418, 2024.01.30
+【77】 LG ELECTRONICS INC., "Technique for performing multi-link communication in wireless communication system", US Patent 11,882,512, 2024.01.23
+【78】 LG ELECTRONICS INC., "Channel access in multi-link", US Patent 11,871,447, 2024.01.09
+【79】 LG ELECTRONICS INC., "Technique for controlling plurality of wireless communication links", US Patent 11,838,951, 2023.12.05
+【80】 LG ELECTRONICS INC., "Method and device for transmitting signal through multi-link in wireless LAN system", US Patent 11,723,094, 2023.08.08
+【81】 LG ELECTRONICS INC., "Method and apparatus for transmitting PPDU on basis of S-TDMA in wireless LAN system", US Patent 11,641,237, 2023.05.02
+【82】 LG ELECTRONICS INC., "Techniques for performing multi-link communication in wireless local area network system", US Patent 11,641,685, 2023.05.02
+【83】 LG ELECTRONICS INC., "Method and device for transmitting data in wireless LAN system", US Patent 11,601,973, 2023.03.07
+【84】 LG ELECTRONICS INC., "Method for communication in wireless LAN system and wireless terminal using same", US Patent 11,582,692, 2023.02.14
+【85】 LG ELECTRONICS INC., "Method and apparatus for transmitting PPDU in WLAN system", US Patent 11,497,058, 2022.11.08
+【86】 LG ELECTRONICS INC., "Method and device for transmitting data in wireless LAN system", US Patent 11,490,261, 2022.11.01
