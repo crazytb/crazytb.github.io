@@ -188,6 +188,37 @@ body {
     font-size: 1.1rem;
 }
 
+.contact-item-lab {
+    background: linear-gradient(135deg, #059669, #0d9488);
+    color: white !important;
+    border: none;
+    font-weight: 500;
+}
+
+.contact-item-lab:hover {
+    background: linear-gradient(135deg, #047857, #0f766e);
+    color: white !important;
+}
+
+.contact-item-lab i {
+    color: white;
+}
+
+.lab-name-full {
+    font-size: 0.75rem;
+    opacity: 0.85;
+    display: block;
+    line-height: 1.2;
+}
+
+[data-theme="dark"] .contact-item-lab {
+    background: linear-gradient(135deg, #065f46, #134e4a);
+}
+
+[data-theme="dark"] .contact-item-lab:hover {
+    background: linear-gradient(135deg, #059669, #0d9488);
+}
+
 /* ===================================
    CV Sections
    =================================== */

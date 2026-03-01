@@ -110,7 +110,7 @@ function renderPersonalInfo() {
     const websiteEl = document.getElementById('website');
     if (websiteEl && personal.website) {
         websiteEl.href = personal.website;
-        websiteEl.querySelector('span').textContent = 'Lab Website';
+        websiteEl.querySelector('span').innerHTML = 'AINO Lab<span class="lab-name-full">Artificial Intelligence and<br>Network Optimization</span>';
     }
 
     // Google Scholar
