@@ -156,6 +156,12 @@ body {
     font-weight: 300;
 }
 
+.title-affiliation {
+    font-size: 1rem;
+    color: var(--text-muted);
+    font-weight: 300;
+}
+
 .contact-info {
     display: flex;
     flex-wrap: wrap;
@@ -451,7 +457,7 @@ body {
 }
 
 .publication-category.collapsed {
-    margin-bottom: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
 }
 
 .publication-category:last-child {

@@ -88,14 +88,14 @@ function renderPersonalInfo() {
     const emailEl = document.getElementById('email');
     if (emailEl && personal.email) {
         emailEl.href = `mailto:${personal.email}`;
-        emailEl.querySelector('span').textContent = personal.email;
+        emailEl.querySelector('span').textContent = 'Contact';
     }
 
     // GitHub
     const githubEl = document.getElementById('github');
     if (githubEl && personal.github) {
         githubEl.href = `https://github.com/${personal.github}`;
-        githubEl.querySelector('span').textContent = personal.github;
+        githubEl.querySelector('span').textContent = 'GitHub';
     }
 
     // LinkedIn
