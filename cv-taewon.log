@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.9.6)  7 MAR 2026 00:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.9.6)  7 MAR 2026 00:53
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1173,7 +1173,7 @@ Package logreq Info: Writing requests to 'cv-taewon.run.xml'.
 Here is how much of TeX's memory you used:
  39595 strings out of 480247
  804014 string characters out of 5896152
- 1508987 words of memory out of 5000000
+ 1508988 words of memory out of 5000000
  56718 multiletter control sequences out of 15000+600000
  740618 words of font info for 109 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
