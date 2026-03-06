@@ -1,16 +1,21 @@
 {
   "personal": {
     "name": "Taewon Song",
-    "email": "twsong@sch.ac.kr",
+    "email": "twsong@dongguk.edu",
     "github": "crazytb",
     "linkedin": "taewon-song-1b2b26139/",
     "website": "https://sites.google.com/view/ainolab/",
     "scholar": "https://scholar.google.com/citations?user=wtxUC_IAAAAJ"
   },
-  "biography": "Taewon Song received the B.S. and Ph.D. degrees in electrical engineering from Korea University, Seoul, South Korea, in 2010 and 2017, respectively. In 2021, he joined Soonchunhyang University, where he is currently an assistant professor at the Department of IoT. From 2017 to 2020, he was a senior researcher at the Advanced Standard R&D Laboratory, LG Electronics, where he worked on standardization for wake-up radio and next-generation WLANs. He was a visiting researcher supported by the BK21+ project with the University of Florida from February 2015 to April 2015. From January 2012 to February 2012, he was a visiting researcher supported by the National Research Foundation of Korea at the National Institute of Information and Communications Technology. His current research interests include AI-empowered networking, low-power wake-up radio, and the wireless medium access control protocol of next-generation WLANs.",
+  "biography": "Taewon Song received the B.S. and Ph.D. degrees in electrical engineering from Korea University, Seoul, South Korea, in 2010 and 2017, respectively. In 2026, he joined Dongguk University, where he is currently an assistant professor at the Division of Electronics and Electrical Engineering. From 2021 to 2026, he was an assistant professor at the Department of IoT, Soonchunhyang University. From 2017 to 2020, he was a senior researcher at the Advanced Standard R&D Laboratory, LG Electronics, where he worked on standardization for wake-up radio and next-generation WLANs. He was a visiting researcher supported by the BK21+ project with the University of Florida from February 2015 to April 2015. From January 2012 to February 2012, he was a visiting researcher supported by the National Research Foundation of Korea at the National Institute of Information and Communications Technology. His current research interests include AI-empowered networking, low-power wake-up radio, and the wireless medium access control protocol of next-generation WLANs.",
   "employment": [
     {
-      "period": "2021. 3. -- Current",
+      "period": "2026. 3. -- Current",
+      "position": "Assistant Professor,",
+      "organization": "Division of Electronics and Electrical Engineering, Dongguk University"
+    },
+    {
+      "period": "2021. 3. -- 2026. 2.",
       "position": "Assistant Professor,",
       "organization": "Department of IoT, College of SW Convergence, Soonchunhyang University"
     },
@@ -84,11 +89,10 @@
         "doi": "https://doi.org/10.1016/j.future.2025.107986",
         "url": "",
         "keywords": "Serverless computing, Cloud, Internet of things (IoT), Container management, Cold start",
-        "impact_factor": "6.1",
-        "jcr_quantile": "Q1",
-        "jcr_ranking": "Top 9.9%",
-        "jcr_field": "COMPUTER SCIENCE, THEORY & METHODS",
-        "is_first_author": true
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -104,11 +108,10 @@
         "doi": "10.3390/app15052656",
         "url": "https://www.mdpi.com/2076-3417/15/5/2656",
         "keywords": "",
-        "impact_factor": "2.5",
-        "jcr_quantile": "Q1",
-        "jcr_ranking": "Top 24.0%",
-        "jcr_field": "ENGINEERING, MULTIDISCIPLINARY",
-        "is_first_author": true
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -124,11 +127,10 @@
         "doi": "10.1109/JIOT.2024.3410328",
         "url": "",
         "keywords": "",
-        "impact_factor": "10.6",
-        "jcr_quantile": "Q1",
-        "jcr_ranking": "Top 2.2%",
-        "jcr_field": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
-        "is_first_author": true
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -144,11 +146,10 @@
         "doi": "10.1007/s11276-024-03739-9",
         "url": "",
         "keywords": "",
-        "impact_factor": "3.0",
-        "jcr_quantile": "Q2",
-        "jcr_ranking": "Top 45.3%",
-        "jcr_field": "ENGINEERING, ELECTRICAL & ELECTRONIC",
-        "is_first_author": false
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -164,11 +165,10 @@
         "doi": "10.1109/JIOT.2024.3355410",
         "url": "",
         "keywords": "",
-        "impact_factor": "10.6",
-        "jcr_quantile": "Q1",
-        "jcr_ranking": "Top 2.2%",
-        "jcr_field": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
-        "is_first_author": true
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -184,11 +184,10 @@
         "doi": "10.1049/itr2.12255",
         "url": "https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/itr2.12255",
         "keywords": "",
-        "impact_factor": "2.7",
-        "jcr_quantile": "Q3",
-        "jcr_ranking": "Top 51.1%",
-        "jcr_field": "ENGINEERING, ELECTRICAL & ELECTRONIC",
-        "is_first_author": true
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -204,11 +203,10 @@
         "doi": "10.3390/s24020357",
         "url": "https://www.mdpi.com/1424-8220/24/2/357",
         "keywords": "",
-        "impact_factor": "3.9",
-        "jcr_quantile": "Q2",
-        "jcr_ranking": "Top 29.4%",
-        "jcr_field": "INSTRUMENTS & INSTRUMENTATION",
-        "is_first_author": true
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -224,11 +222,10 @@
         "doi": "10.1109/TVT.2023.3257424",
         "url": "",
         "keywords": "",
-        "impact_factor": "6.239",
-        "jcr_quantile": "Q1",
-        "jcr_ranking": "Top 13.587%",
-        "jcr_field": "ENGINEERING, ELECTRICAL & ELECTRONIC",
-        "is_first_author": true
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -244,11 +241,10 @@
         "doi": "10.1016/j.engappai.2022.105508",
         "url": "https://www.sciencedirect.com/science/article/pii/S0952197622004985",
         "keywords": "Sensor data augmentation, Generative adversarial network, People counting, Moving direction, Pyroelectric infrared (PIR) sensor, Multi-task learning, Convolutional neural network",
-        "impact_factor": "7.802",
-        "jcr_quantile": "Q1",
-        "jcr_ranking": "Top 4.891%",
-        "jcr_field": "ENGINEERING, MULTIDISCIPLINARY",
-        "is_first_author": false
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -264,11 +260,10 @@
         "doi": "10.3390/electronics11244118",
         "url": "https://www.mdpi.com/2079-9292/11/24/4118",
         "keywords": "",
-        "impact_factor": "2.397",
-        "jcr_quantile": "Q3",
-        "jcr_ranking": "Top 52.93%",
-        "jcr_field": "ENGINEERING, ELECTRICAL & ELECTRONIC",
-        "is_first_author": false
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -284,11 +279,10 @@
         "doi": "10.3390/s22207967",
         "url": "https://www.mdpi.com/1424-8220/22/20/7967",
         "keywords": "",
-        "impact_factor": "3.576",
-        "jcr_quantile": "Q1",
-        "jcr_ranking": "Top 21.094%",
-        "jcr_field": "INSTRUMENTS & INSTRUMENTATION",
-        "is_first_author": true
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -304,11 +298,10 @@
         "doi": "10.3390/app11010317",
         "url": "https://www.mdpi.com/2076-3417/11/1/317",
         "keywords": "",
-        "impact_factor": "2.5",
+        "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": "",
-        "is_first_author": true
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -324,11 +317,10 @@
         "doi": "10.3390/en13153940",
         "url": "https://www.mdpi.com/1996-1073/13/15/3940",
         "keywords": "",
-        "impact_factor": "3.0",
+        "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": "",
-        "is_first_author": false
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -347,8 +339,7 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": "",
-        "is_first_author": false
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -367,8 +358,7 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": "",
-        "is_first_author": true
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -406,8 +396,7 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": "",
-        "is_first_author": false
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -426,8 +415,7 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": "",
-        "is_first_author": false
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -446,8 +434,7 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": "",
-        "is_first_author": false
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -466,8 +453,7 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": "",
-        "is_first_author": true
+        "jcr_field": ""
       },
       {
         "type": "article",
@@ -562,11 +548,29 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": "",
-        "is_first_author": false
+        "jcr_field": ""
       }
     ],
     "conferences": [
+      {
+        "type": "inproceedings",
+        "key": "11388408",
+        "title": "Impact of Frame Duration on Cross-Channel Interference and Coexistence in IEEE 802.11bn NPCA",
+        "author": "Lee, Jisoo and Song, Taewon",
+        "year": "2025",
+        "journal": "",
+        "booktitle": "2025 16th International Conference on Information and Communication Technology Convergence (ICTC)",
+        "volume": "",
+        "number": "",
+        "pages": "1947-1948",
+        "doi": "10.1109/ICTC66702.2025.11388408",
+        "url": "",
+        "keywords": "",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
+      },
       {
         "type": "inproceedings",
         "key": "song2024drqn",
@@ -584,8 +588,26 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": "",
-        "is_first_author": true
+        "jcr_field": ""
+      },
+      {
+        "type": "inproceedings",
+        "key": "song2024drqn",
+        "title": "DRQN-based Task Offloading in UAV-assisted Mobile Edge Computing Environments with Hidden Channel Conditions",
+        "author": "Song, Taewon",
+        "year": "2024",
+        "journal": "",
+        "booktitle": "2024 15th International Conference on Information and Communication Technology Convergence (ICTC)",
+        "volume": "",
+        "number": "",
+        "pages": "2153--2154",
+        "doi": "10.1109/ICTC62082.2024.10826811",
+        "url": "",
+        "keywords": "",
+        "impact_factor": "",
+        "jcr_quantile": "",
+        "jcr_ranking": "",
+        "jcr_field": ""
       },
       {
         "type": "inproceedings",
@@ -604,8 +626,7 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": "",
-        "is_first_author": false
+        "jcr_field": ""
       },
       {
         "type": "inproceedings",
@@ -624,8 +645,7 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": "",
-        "is_first_author": true
+        "jcr_field": ""
       },
       {
         "type": "inproceedings",
@@ -644,8 +664,7 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": "",
-        "is_first_author": false
+        "jcr_field": ""
       },
       {
         "type": "inproceedings",
@@ -658,14 +677,13 @@
         "volume": "",
         "number": "",
         "pages": "395--397",
-        "doi": "",
+        "doi": "10.1109/ICOIN.2016.7427142",
         "url": "",
         "keywords": "",
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": "",
-        "is_first_author": true
+        "jcr_field": ""
       },
       {
         "type": "inproceedings",
@@ -678,14 +696,13 @@
         "volume": "",
         "number": "",
         "pages": "631--633",
-        "doi": "",
+        "doi": "10.1109/ICTC.2016.7763549",
         "url": "",
         "keywords": "",
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": "",
-        "is_first_author": true
+        "jcr_field": ""
       },
       {
         "type": "inproceedings",
@@ -704,8 +721,7 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": "",
-        "is_first_author": true
+        "jcr_field": ""
       },
       {
         "type": "inproceedings",
@@ -724,8 +740,7 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": "",
-        "is_first_author": false
+        "jcr_field": ""
       },
       {
         "type": "inproceedings",
@@ -744,8 +759,7 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": "",
-        "is_first_author": false
+        "jcr_field": ""
       },
       {
         "type": "inproceedings",
@@ -764,8 +778,7 @@
         "impact_factor": "",
         "jcr_quantile": "",
         "jcr_ranking": "",
-        "jcr_field": "",
-        "is_first_author": true
+        "jcr_field": ""
       }
     ],
     "books": []
